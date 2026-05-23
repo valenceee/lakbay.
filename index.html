@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1>Welcome Back!</h1>
+    <h2>Login</h2>
+
+    <form action="/login" method="POST">
+        <!--Email field-->
+    <div>
+    <label>Email:</label>
+    <input type="email" id="email" placeholder="Enter email" required> <br><br>
+    </div>
+        <!--password field -->
+    <div>
+    <label>Password:</label>
+    <div class="password-wrapper">
+        <input type="password" id="password" placeholder="Enter password" required
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}"
+            title="Must contain at least 8 characters, including uppercase, lowercase, number, and special character.">
+        <span id="togglePassword">
+                 
+                   <svg id="iconEyeOpen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 12c0 0 4-8 10-8s10 8 10 8-4 8-10 8-10-8-10-8z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                        </svg>
+
+                   <svg id="iconEyeHidden" style="display: none;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                         <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-6 0-10-8-10-8a18.45 18.45 0 0 1 5.06-5.94"/>
+                         <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c6 0 10 8 10 8a18.5 18.5 0 0 1-2.16 3.19"/>
+                         <path d="M14.12 14.12a3 3 0 1 1-4.24-4.24"/>
+                         <line x1="2" y1="2" x2="22" y2="22"/>
+                    </svg>
+
+                </span>
+    </div> <br><br>
+        <!--remember me and forgot password -->
+    <div>
+    <input type="checkbox" id="rememberMe">
+    <label for="rememberMe">Remember Me</label> <br><br> 
+    &nbsp;&nbsp;&nbsp;
+    <a href="#">Forgot Password?</a> <br><br>
+    </div>
+        <!--login button-->
+    <button type="submit">Login</button> <br><br>
+
+    </form>
+
+    <p>or</p>
+        <!--redirection buttons for admin login and signup -->
+    <button type="button" onclick="window.location.href='adminLogin.html'">Login as Admin</button>
+    <button type="button" onclick="window.location.href='signup.html'">Create an Account</button> <br><br>
+
+</body>
+</html>

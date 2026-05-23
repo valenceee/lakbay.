@@ -1,0 +1,29 @@
+.password-wrapper {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+        .password-wrapper input {
+            width: 100%;
+            padding-right: 44px;
+            box-sizing: border-box;
+        }
+        #togglePassword {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+        }
+        .password-wrapper svg {
+            width: 20px;
+            height: 20px;
+            display: block;
+        }
+        
