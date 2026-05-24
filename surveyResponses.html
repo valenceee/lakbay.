@@ -23,7 +23,20 @@
     <div class="title-responses">
         <h1>Survey Responses</h1>
         <P>Filters</p>
-            <div class="filter-card"> </div>
+            <div class="filter-card">
+                <select id="filter"
+                    name="filter"
+                    onchange="applyFilter()">
+                    <option value="">Name (A-Z)</option>
+                    <option value="">Name (Z-A)</option>   
+                    <option value="">Date (Older)</option>
+                    <option value="">Date (Newer)</option>
+                    <option value="">Type (Ascending)</option>
+                    <option value="">Type (Descending)</option>
+                    <option value="">Ratings (Lowest)</option>
+                    <option value="">Ratings (Highest)</option>      
+                </select>
+            </div>
     </div>
 
     <div class="table">
@@ -32,7 +45,7 @@
                 <th>Date</th>
                 <th>Location</th>
                 <th>Ratings</th>
-   d             <th>Safety</th>
+                <th>Safety</th>
                 <th>Cleanliness</th>
                 <th>Accessibility</th>
                 <th>PWD Friendly</th>
