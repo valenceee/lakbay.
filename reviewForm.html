@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form</title>
+</head>
+
+<body>
+
+<main>
+    <h1>Visitor Review Form</h1>
+
+    <form action="/submit-review" method="post">
+
+  
+     <!-- Reviewer Information -->
+<fieldset>
+    <legend>Reviewer Information</legend>
+
+
+    <label for="name">Name:</label><br>
+    <input 
+        type="text" 
+        id="name" 
+        name="name"
+        minlength="3"
+        maxlength="100"
+        placeholder="Your name(OPTIONAL)"
+    >
+
+    <br><br>
+
+
+    <label for="visit-date">Date of Visit:</label><br>
+    <input 
+        type="date" 
+        id="visit-date" 
+        name="visit_date"
+        required
+    >
+</fieldset>
+        <br>
+
+        <!-- Overall Rating -->
+        <fieldset>
+            <legend>Overall Rating</legend>
+
+            <p>Rate your experience:</p>
+
+            <input type="radio" id="star5" name="overall_rating" value="5" required>
+            <label for="star5">★★★★★</label>
+
+            <input type="radio" id="star4" name="overall_rating" value="4">
+            <label for="star4">★★★★☆</label>
+
+            <input type="radio" id="star3" name="overall_rating" value="3">
+            <label for="star3">★★★☆☆</label>
+
+            <input type="radio" id="star2" name="overall_rating" value="2">
+            <label for="star2">★★☆☆☆</label>
+
+            <input type="radio" id="star1" name="overall_rating" value="1">
+            <label for="star1">★☆☆☆☆</label>
+        </fieldset>
+
+        <br>
+
+        <!-- Facilities and Amenities -->
+        <fieldset>
+            <legend>Facilities and Amenities</legend>
+
+            <label for="restroom-availability">Restroom Availability:</label><br>
+            <select id="restroom-availability" name="restroom_availability" required>
+                <option value="">Select</option>
+                <option value="easily-available">Easily available</option>
+                <option value="available-but-limited">Available but limited</option>
+                <option value="difficult-to-find">Difficult to find</option>
+                <option value="not-available">Not available</option>
+                <option value="not-applicable">Not applicable</option>
+            </select>
+
+            <br><br>
+
+            <label for="restroom-cleanliness">Restroom Cleanliness:</label><br>
+            <select id="restroom-cleanliness" name="restroom_cleanliness" required>
+                <option value="">Select</option>
+                <option value="very-clean">Very clean</option>
+                <option value="clean">Clean</option>
+                <option value="okay">Okay</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+                <option value="not-applicable">Not applicable</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Signage and Information -->
+        <fieldset>
+            <legend>Signage and Information</legend>
+
+            <label for="signs-visible">Were signs visible and easy to follow?</label><br>
+            <select id="signs-visible" name="signs_visible" required>
+                <option value="">Select</option>
+                <option value="excellent">Excellent</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="poor">Poor</option>
+            </select>
+
+            <br><br>
+
+            <label for="info-clear">Was information clear and helpful?</label><br>
+            <select id="info-clear" name="info_clear" required>
+                <option value="">Select</option>
+                <option value="very-helpful">Very helpful</option>
+                <option value="helpful">Helpful</option>
+                <option value="somewhat-helpful">Somewhat helpful</option>
+                <option value="not-helpful">Not helpful</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Staff and Service -->
+        <fieldset>
+            <legend>Staff and Service</legend>
+
+            <label for="staff-friendliness">Staff Friendliness:</label><br>
+            <select id="staff-friendliness" name="staff_friendliness" required>
+                <option value="">Select</option>
+                <option value="very-friendly">Very friendly</option>
+                <option value="friendly">Friendly</option>
+                <option value="neutral">Neutral</option>
+                <option value="not-friendly">Not friendly</option>
+                <option value="no-interaction">No interaction</option>
+            </select>
+
+            <br><br>
+
+            <label for="staff-knowledge">Staff Knowledge:</label><br>
+            <select id="staff-knowledge" name="staff_knowledge" required>
+                <option value="">Select</option>
+                <option value="very-knowledgeable">Very knowledgeable</option>
+                <option value="knowledgeable">Knowledgeable</option>
+                <option value="somewhat-knowledgeable">Somewhat knowledgeable</option>
+                <option value="not-knowledgeable">Not knowledgeable</option>
+                <option value="no-interaction">No interaction</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Accessibility -->
+        <fieldset>
+            <legend>Accessibility and Convenience</legend>
+
+            <label for="accessibility-disabilities">
+                Accessibility for Persons with Disabilities:
+            </label><br>
+
+            <select 
+                id="accessibility-disabilities" 
+                name="accessibility_disabilities" 
+                required
+            >
+                <option value="">Select</option>
+                <option value="fully-accessible">Fully accessible</option>
+                <option value="mostly-accessible">Mostly accessible</option>
+                <option value="partially-accessible">Partially accessible</option>
+                <option value="not-accessible">Not accessible</option>
+                <option value="not-applicable">Not applicable</option>
+            </select>
+
+            <br><br>
+
+            <label for="parking-availability">Parking Availability:</label><br>
+
+            <select 
+                id="parking-availability" 
+                name="parking_availability" 
+                required
+            >
+                <option value="">Select</option>
+                <option value="yes-a-lot">Yes, a lot</option>
+                <option value="yes-a-few">Yes, a few</option>
+                <option value="limited">Limited</option>
+                <option value="no">No</option>
+                <option value="not-applicable">Not applicable</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Visit Details -->
+        <fieldset>
+            <legend>Visit Details</legend>
+
+            <label for="crowd-level">Crowd Level:</label><br>
+            <select id="crowd-level" name="crowd_level" required>
+                <option value="">Select</option>
+                <option value="very-crowded">Very crowded</option>
+                <option value="moderately-crowded">Moderately crowded</option>
+                <option value="not-crowded">Not crowded</option>
+                <option value="empty">Empty</option>
+            </select>
+
+            <br><br>
+
+            <label for="wait-time">Wait Time:</label><br>
+            <select id="wait-time" name="wait_time" required>
+                <option value="">Select</option>
+                <option value="no-wait">No wait</option>
+                <option value="short">Short (under 15 min)</option>
+                <option value="moderate">Moderate (15–30 min)</option>
+                <option value="long">Long (30–60 min)</option>
+                <option value="very-long">Very long (over 60 min)</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Overall Assessments -->
+        <fieldset>
+            <legend>Overall Assessments</legend>
+
+            <label for="overall-safety">Overall Safety:</label><br>
+            <select id="overall-safety" name="overall_safety" required>
+                <option value="">Select</option>
+                <option value="very-safe">Very safe</option>
+                <option value="safe">Safe</option>
+                <option value="neutral">Neutral</option>
+                <option value="unsafe">Unsafe</option>
+                <option value="very-unsafe">Very unsafe</option>
+            </select>
+
+            <br><br>
+
+            <label for="overall-cleanliness">Overall Cleanliness:</label><br>
+            <select id="overall-cleanliness" name="overall_cleanliness" required>
+                <option value="">Select</option>
+                <option value="very-clean">Very clean</option>
+                <option value="clean">Clean</option>
+                <option value="okay">Okay</option>
+                <option value="poor">Poor</option>
+                <option value="very-poor">Very poor</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Recommendation -->
+        <fieldset>
+            <legend>Final Thoughts</legend>
+
+            <label for="would-recommend">Would you recommend this place?</label><br>
+
+            <select 
+                id="would-recommend" 
+                name="would_recommend" 
+                required
+            >
+                <option value="">Select</option>
+                <option value="yes-definitely">Yes, definitely</option>
+                <option value="yes-probably">Yes, probably</option>
+                <option value="not-sure">Not sure</option>
+                <option value="probably-not">Probably not</option>
+                <option value="definitely-not">Definitely not</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <!-- Comments -->
+        <fieldset>
+            <legend>Additional Comments</legend>
+
+            <label for="additional-comments">
+                Your comments:
+            </label><br>
+
+            <textarea
+                id="additional-comments"
+                name="additional_comments"
+                rows="8"
+                cols="60"
+                minlength="20"
+                maxlength="1000"
+                placeholder="Please provide detailed feedback..."
+                required
+            ></textarea>
+        </fieldset>
+
+        <br>
+
+        <!-- Terms -->
+        <fieldset>
+            <legend>Confirmation</legend>
+
+            <input 
+                type="checkbox" 
+                id="confirm-review"
+                name="confirm_review"
+                required
+            >
+
+            <label for="confirm-review">
+                I confirm that this review is based on my actual experience.
+            </label>
+        </fieldset>
+
+        <br>
+
+        <!-- Submit -->
+        <button type="submit">Submit Feedback</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+</main>
+
+</body>
+</html>
