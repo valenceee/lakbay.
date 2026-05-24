@@ -31,4 +31,23 @@
             height: 20px;
             display: block;
         }
-        
+
+        /* Pie chart */
+        .pie-chart {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(
+                #4caf50 0% 25%,
+                #ff9800 25% 50%,
+                #f44336 50% 75%,
+                #9e9e9e 75% 100%
+            )
+        }
+      /* filter border */
+        .filter-card {  
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 16px;
+        }
