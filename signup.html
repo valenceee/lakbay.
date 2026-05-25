@@ -3,123 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up - Lakbay</title>generate the raw html file for signup. there is an option such as sign up as a user or signup as admin
-    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up - Lakbay</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="signup-container">
-        <div class="signup-header">
-            <h1>Create Account</h1>
-            <p>Join Lakbay today</p>
-        </div>
+    <!-- header -->
+  <header>
+    <a href="index.html" class="brand">
+      <img src="icons/logo.svg" alt="lakbay logo" style="width: 1.5rem; height: 1.5rem;">
+      <span> lakbay. </span>
+    </a>
+  </header>
 
-        <div class="success-message" id="successMessage"></div>
+  <div class="page">
+    <div class="panel">
+        <div class="login-card">
+            <h2> Create Account </h2>
+            <p class="subtitle"> Join the fun with <b>lakbay.</b> </p>
 
-        <form id="signupForm" novalidate>
-            <!-- Role Selection -->
-            <div class="role-selection">
-                <div class="role-option">
-                    <input type="radio" id="roleUser" name="role" value="user" checked>
-                    <label for="roleUser" class="role-label">User</label>
-                </div>
-                <div class="role-option">
-                    <input type="radio" id="roleAdmin" name="role" value="admin">
-                    <label for="roleAdmin" class="role-label">Admin</label>
-                </div>
-            </div>
-
-            <!-- Full Name -->
-            <div class="form-group">
-                <label for="fullName">Full Name:*</label>
-                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
-                <div class="error-message"></div>
-            </div>
-
-            <!-- Email -->
-            <div class="form-group">
-                <label for="email">Email Address:*</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-                <div class="error-message"></div>
-            </div>
-
-            <!-- Phone Number -->
-            <div class="form-group">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
-                <div class="error-message"></div>
-            </div>
-
-            <!-- User-specific fields -->
-            <div class="form-group user-only">
-                <label for="address">Address:</label>
-                <input type="text" id="address" name="address" placeholder="Enter your address">
-            </div>
-
-            <div class="form-row user-only">
+            <form id="loginForm" novalidate>
+                <!-- Last Name -->
                 <div class="form-group">
-                    <label for="city">City:</label>
-                    <input type="text" id="city" name="city" placeholder="Enter your city">
+                    <label for="lastName" class="lastName">Name: </label>
+                    <div class="input-wrapper">
+                    <img src="icons/user.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                    </div> 
+                    <span class="error-msg" id="lastNameError">Please enter a valid last name.</span>
                 </div>
+
+                <!-- First Name -->
                 <div class="form-group">
-                    <label for="zipcode">Zip Code:</label>
-                    <input type="text" id="zipcode" name="zipcode" placeholder="Enter zip code">
+                    <label for="firstName" class="firstName"></label>
+                    <div class="input-wrapper">
+                    <img src="icons/user.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+                    </div> 
+                    <span class="error-msg" id="firstNameError">Please enter a valid first name.</span>
                 </div>
-            </div>
 
-            <!-- Password -->
-            <div class="form-group">
-                <label for="password">Password:*</label>
-                <div class="password-wrapper">
-                    <input type="password" id="password" name="password" placeholder="Create a strong password" required>
-                    <button type="button" id="togglePassword" aria-label="Toggle password visibility">
-                        <svg id="iconEyeOpen" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                        </svg>
-                        <svg id="iconEyeHidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
-                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.26 3.64m-5.88-2.88a3 3 0 1 1-4.24-4.24"></path>
-                            <line x1="1" y1="1" x2="23" y2="23"></line>
-                        </svg>
+                <!-- email -->
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <div class="input-wrapper">
+                        <img src="icons/email.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" />
+                    </div>
+                    <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+                </div>
+
+                <!-- password -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-wrapper">
+                    <img src="icons/pass.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+                    <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" />
+                    <button type="button" class="toggle-pw" id="togglePw" aria-label="Toggle password visibility">
+                        <img src="icons/hidepass.svg" id="iconEyeVisible" style="width: 1.4rem; height: 1.4rem;">
+                        <img src="icons/viewpass.svg" id="iconEyeHidden" style="width: 1.4rem; height: 1.4rem;">
                     </button>
+                    </div>
+                    <span class="error-msg" id="passwordError">Password must be at least 6 characters.</span>
                 </div>
-                <div class="error-message"></div>
-            </div>
 
-            <!-- Confirm Password -->
-            <div class="form-group">
-                <label for="confirmPassword">Confirm Password:*</label>
-                <div class="password-wrapper">
-                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
-                    <button type="button" id="toggleConfirmPassword" aria-label="Toggle password visibility">
-                        <svg id="iconEyeOpen2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                        </svg>
-                        <svg id="iconEyeHidden2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
-                            <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.26 3.64m-5.88-2.88a3 3 0 1 1-4.24-4.24"></path>
-                            <line x1="1" y1="1" x2="23" y2="23"></line>
-                        </svg>
-                    </button>
+                <!-- Address -->
+                <div class="form-group">
+                    <label for="address">Region and City</label>
+                    <div class="input-wrapper">
+                        <img src="icons/region.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+                        <select name="address" id="address">
+                        <option value="" disabled selected>Select your region</option>
+                        <optgroup label="Luzon">
+                            <option value="NCR">National Capital Region (NCR)</option>
+                            <option value="CAR">Cordillera Administrative Region (CAR)</option>
+                            <option value="Region I">Region I (Ilocos Region)</option>
+                            <option value="Region II">Region II (Cagayan Valley)</option>
+                            <option value="Region III">Region III (Central Luzon)</option>
+                            <option value="CALABARZON">Region IV-A (CALABARZON)</option>
+                            <option value="MIMAROPA">MIMAROPA Region</option>
+                            <option value="Region V">Region V (Bicol Region)</option>
+                        </optgroup>
+                        <optgroup label="Visayas">
+                            <option value="Region VI">Region VI (Western Visayas)</option>
+                            <option value="Region VII">Region VII (Central Visayas)</option>
+                            <option value="Region VIII">Region VIII (Eastern Visayas)</option>
+                        </optgroup>
+                        <optgroup label="Mindanao">
+                            <option value="Region IX">Region IX (Zamboanga Peninsula)</option>
+                            <option value="Region X">Region X (Northern Mindanao)</option>
+                            <option value="Region XI">Region XI (Davao Region)</option>
+                            <option value="Region XII">Region XII (SOCCSKSARGEN)</option>
+                            <option value="Region XIII">Region XIII (Caraga)</option>
+                            <option value="BARMM">Bangsamoro (BARMM)</option>
+                        </optgroup>
+                        <optgroup label="Island Groups">
+                            <option value="NIR">Negros Island Region (NIR)</option>
+                        </optgroup>
+                        </select>
+                    </div>
+                    <span class="error-msg" id="addressError">Please select a valid region.</span>
                 </div>
-                <div class="error-message"></div>
-            </div>
+                    
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms" class="subtitle">I agree to the <a href="#terms">Terms of Service</a> and <a href="#privacy">Privacy Policy</a> of lakbay.</label>
+                </div>
+                <span class="error-msg" id="termsError">You must agree to the Terms of Service.</span>
 
-            <!-- Terms and Conditions -->
-            <div class="checkbox-group">
-                <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree to the <a href="#terms">Terms of Service</a> and <a href="#privacy">Privacy Policy</a></label>
-            </div>
+                <input type="submit" class="btn-login" value="Create Account"> <br> <br>
 
-            <!-- Submit Button -->
-            <button type="submit" class="btn-signup">Create Account</button>
-        </form>
+                <p class="signup-row"> Already have an account? <a href="login.html">Log in here</a> </p>
 
-        <!-- Footer -->
-        <div class="signup-footer">
-            Already have an account? <a href="adminLogin.html">Log in here</a>
+            </form>
+            
         </div>
     </div>
+  </div>
 
-    <script src="javascript.js"></script>
+    <script src="signUp.js"></script>
 </body>
 </html>
