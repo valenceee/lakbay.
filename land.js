@@ -58,13 +58,12 @@ function renderLocationCard(location) {
         ${icons.mapPin}
         <span>${location.category}</span>
       </div>
-      <a href="review.html?id=${location.id}" class="btn-review">Make a Review</a>
+      <a href="makeReview.html?id=${location.id}" class="btn-review">Make a Review</a>
     </div>
   `;
   return card;
 }
 
-// ── Home Page ──
 function renderHomePage() {
   const grid = document.getElementById('locations-grid');
   const title = document.getElementById('page-title');
@@ -84,7 +83,6 @@ function renderHomePage() {
   });
 }
 
-// ── Fetch & Init ──
 document.addEventListener('DOMContentLoaded', () => {
   fetch('data.json')
     .then(res => res.json())
