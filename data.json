@@ -2,13 +2,13 @@
   "locations": [
     {
       "id": "1",
-      "name": "National Museum of Natural History ",
+      "name": "National Museum of Natural History",
       "category": "Museums and Galleries",
       "rating": 5,
       "image": "images/1-1.jpg",
       "description": "Features an iconic \"Tree of Life\" atrium housing significant zoological, botanical, and geological specimens.",
-      "tags": ["Daily", "PWD Accessible", "9:00 AM – 6:00 PM"],
-      "region": "Manila"
+      "tags": ["Daily", "9:00 AM - 6:00 PM", "PWD Accessible", "Entrance: Fee"],
+      "region": "Manila, Metro Manila"
     },
     {
       "id": "2",
@@ -17,8 +17,8 @@
       "rating": 5,
       "image": "images/1-2.jpg",
       "description": "Housed in a neoclassical building, this museum showcases the rich cultural heritage and archaeological history of the Philippines.",
-      "tags": ["Daily", "Limited PWD Access", "9:00 AM – 6:00 PM"],
-      "region": "Manila"
+      "tags": ["Daily", "9:00 AM - 6:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
     },
     {
       "id": "3",
@@ -26,9 +26,9 @@
       "category": "Museums and Galleries",
       "rating": 5,
       "image": "images/1-3.jpg",
-      "description": "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London. The tower is officially known as Elizabeth Tower, renamed in 2012.",
-      "tags": ["Daily", "PWD Accessible", "9:00 AM – 6:00 PM"],
-      "region": "Manila"
+      "description": "Houses major works by Filipino masters, including Juan Luna's Spoliarium, along with various classical and contemporary art pieces.",
+      "tags": ["Daily", "9:00 AM - 6:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
     },
     {
       "id": "4",
@@ -36,298 +36,1078 @@
       "category": "Museums and Galleries",
       "rating": 5,
       "image": "images/1-4.jpg",
-      "description": "The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra. A UNESCO World Heritage Site and symbol of eternal love.",
-      "tags": ["Daily", "PWD Accessible", "Sunrise-Sunset"],
-      "region": "Manila"
+      "description": "A modern, immersive digital art experience that creatively engages visitors with technology and art.",
+      "tags": ["Mon - Fri", "10:00 AM - 8:00 PM", "PWD Accessible", "Entrance: ₱670"],
+      "region": "Manila, Metro Manila"
     },
     {
       "id": "5",
+      "name": "Museo Sugbo",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-5.jpg",
+      "description": "Former Cebu provincial jail converted into a museum showcasing Cebu’s history and culture from the pre-colonial period to modern times.",
+      "tags": ["Tues - Sat", "9:00 AM - 5:30 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Cebu City, Cebu"
+    },
+    {
+      "id": "6",
+      "name": "Negros Museum",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-6.jpg",
+      "description": "Features the history, sugar industry, arts, and lifestyle of Negros Occidental.",
+      "tags": ["Mon - Sat", "9:00 AM - 6:00 PM", "PWD Accessible", "Entrance: ₱150", "Student Discount: 20%"],
+      "region": "Bacolod, Negros Occidental"
+    },
+    {
+      "id": "7",
+      "name": "Ponce Suites Gallery Hotel",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-7.jpg",
+      "description": "An art-inspired hotel filled with sculptures and artworks by Kublai Millan.",
+      "tags": ["Daily", "Anytime", "Limited PWD Access", "Free Entrance"],
+      "region": "Davao City, Davao del Sur"
+    },
+    {
+      "id": "8",
       "name": "Fort Santiago",
       "category": "Historical Sites",
       "rating": 5,
       "image": "images/2-1.jpg",
-      "description": "The world's largest art museum and a historic monument in Paris, France. Home to thousands of works of art, including the Mona Lisa and the Venus de Milo.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "9am-6pm", "Closed Tuesdays"],
-      "region": "Manila"
+      "description": "A significant historical citadel used as a defense fortress and prison, famously associated with national hero José Rizal.",
+      "tags": ["Daily", "8:00 AM - 11:00 PM", "PWD Accessible", "Entrance: ₱75", "Student Discount: ₱50"],
+      "region": "Manila, Metro Manila"
     },
     {
-      "id": "6",
+      "id": "9",
       "name": "Intramuros",
       "category": "Historical Sites",
-      "rating": 4,
+      "rating": 5,
       "image": "images/2-2.jpg",
-      "description": "A contemporary art museum featuring works from modern artists around the world. Interactive exhibits and rotating collections make each visit unique.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "10am-8pm"],
-      "region": "Manila"
+      "description": "The Manila's historic \"Walled City,\" a preserved colonial district featuring cobblestone streets, iconic Spanish architecture, and key landmarks like Fort Santiago and San Agustin Church.",
+      "tags": ["Daily", "Anytime", "PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
     },
     {
-      "id": "7",
+      "id": "10",
       "name": "Rizal Park",
       "category": "Historical Sites",
       "rating": 5,
       "image": "images/2-3.jpg",
-      "description": "Experience authentic local cuisine at this bustling street food market. Featuring dozens of vendors offering traditional dishes and modern fusion creations.",
-      "tags": ["Weekdays", "Weekend", "Limited PWD Access", "11am-10pm"],
-      "region": "Manila"
+      "description": "Known as Luneta, this historic urban park is the site of the Rizal Monument and a central gathering place for national commemoration.",
+      "tags": ["Daily", "5:00 AM - 10:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
     },
     {
-      "id": "8",
+      "id": "11",
       "name": "Baluarte de San Diego",
       "category": "Historical Sites",
-      "rating": 4,
+      "rating": 5,
       "image": "images/2-4.jpg",
-      "description": "An upscale food hall featuring artisanal food stalls, craft beverages, and specialty ingredients from around the world.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "10am-9pm"],
-      "region": "Manila"
+      "description": "A historic stone fortification built in the 16th century, now preserved as a scenic garden site.",
+      "tags": ["Daily", "8:00 AM - 5:00 PM", "Limited PWD Access", "Entrance: ₱75", "Student Discount: ₱50"],
+      "region": "Manila, Metro Manila"
     },
     {
-      "id": "9",
+      "id": "12",
       "name": "Corregidor Island",
       "category": "Historical Sites",
       "rating": 5,
       "image": "images/2-5.jpg",
-      "description": "Relax at this pristine beach resort featuring crystal-clear waters, white sand beaches, and world-class amenities. Perfect for families and couples seeking a tropical paradise.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "24/7"],
-      "region": "Cavite"
+      "description": "A strategic island fortress in Manila Bay, critical during WWII; features ruins, tunnels, and memorials.",
+      "tags": ["Daily", "7:00 AM - 4:00 PM", "Limited PWD Access", "Entrance: ₱2500+ (Tour)"],
+      "region": "Cavite City, Cavite"
     },
     {
-      "id": "10",
+      "id": "13",
+      "name": "Fort San Pedro",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-6.jpg",
+      "description": "The oldest triangular fort in the Philippines built by the Spanish in 1565.",
+      "tags": ["Daily", "8:00 AM - 7:00 PM", "Limited PWD Access", "Entrance: ₱30", "Student Discount: 20%"],
+      "region": "Cebu City, Cebu"
+    },
+    {
+      "id": "14",
+      "name": "Aguinaldo Shrine",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-7.jpg",
+      "description": "Historic house where Philippine Independence was declared on June 12, 1898.",
+      "tags": ["Tues - Sun", "8:00 AM - 4:00 PM", "Limited PWD Access", "Free Entrance"],
+      "region": "Kawit, Cavite"
+    },
+    {
+      "id": "15",
+      "name": "Barasoain Church",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-8.jpg",
+      "description": "Known as the “Cradle of Democracy in the East” where the First Philippine Congress was held.",
+      "tags": ["Daily", "6:00 AM - 6:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Malolos, Bulacan"
+    },
+    {
+      "id": "16",
       "name": "Baler Public Market",
       "category": "Food and Market",
       "rating": 5,
       "image": "images/3-1.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "4:00 AM to 8:00 PM"],
-      "region": "Aurora"
+      "description": "The central hub for locals, offering fresh produce, local delicacies like suman, and regional souvenirs.",
+      "tags": ["Daily", "4:00 AM - 8:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "Baler, Aurora"
     },
     {
-      "id": "11",
+      "id": "17",
       "name": "Baguio Night Market",
       "category": "Food and Market",
       "rating": 5,
       "image": "images/3-2.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "9:00 PM – 2:00 AM"],
-      "region": "Benguet"
+      "description": "A bustling outdoor night market along Harrison Road where you can find secondhand clothing (ukay-ukay), accessories, and local street food.",
+      "tags": ["Daily", "9:00 PM - 2:00 AM", "Limited PWD Access", "Free Entrance"],
+      "region": "Baguio City, Benguet"
     },
     {
-      "id": "12",
+      "id": "18",
       "name": "Pampanga Food Hubs",
       "category": "Food and Market",
       "rating": 5,
       "image": "images/3-3.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "10:00 AM - 10:00 PM"],
-      "region": "Pampanga"
+      "description": "Pampanga is the \"Culinary Capital of the Philippines.\" These hubs offer authentic Kapampangan dishes, including world-famous sisig.",
+      "tags": ["Daily", "10:00 AM - 10:00 PM", "PWD Accessible", "Free Entrance"],
+      "region": "San Fernando, Pampanga"
     },
     {
-      "id": "13",
+      "id": "19",
+      "name": "Salcedo Weekend Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-4.jpg",
+      "description": "One of Metro Manila’s most popular and well-loved outdoor weekend markets. A vibrant hub of food, fresh produce, shopping, and community every Saturday.",
+      "tags": ["Saturday", "7:00 AM - 2:00 PM", "PWD Accessible", "Free Entrance", "Student Discount: Yes (some)"],
+      "region": "Makati, Metro Manila"
+    },
+    {
+      "id": "20",
+      "name": "Quiapo Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-5.jpg",
+      "description": "One of the rawest and most chaotic street food hubs. Famous for isaw (grilled intestines), kwek-kwek, palabok, sotanghon, balut, and fresh lumpia.",
+      "tags": ["Daily", "9:00 AM - 6:00 PM", "Not PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
+    },
+    {
+      "id": "21",
+      "name": "Divisoria Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-6.jpg",
+      "description": "A massive, bustling bargain paradise with excellent street snacks, fresh goods, and local eats. Great for cheap, authentic Filipino street food while shopping.",
+      "tags": ["Daily", "5:00 AM - 10:00 PM", "Not PWD Accessible", "Free Entrance"],
+      "region": "Manila, Metro Manila"
+    },
+    {
+      "id": "22",
+      "name": "Carbon Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-7.jpg",
+      "description": "The oldest and largest public market in Cebu. Known for fresh seafood, danggit (dried fish), puso (hanging rice), and Cebu-style lechon.",
+      "tags": ["Daily", "5:00 AM - 10:00 PM", "Not PWD Accessible", "Free Entrance"],
+      "region": "Cebu City, Cebu"
+    },
+    {
+      "id": "23",
+      "name": "Taboan Public Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-8.jpg",
+      "description": "Specializes in dried fish (danggit), dried mangoes, and other Cebuano delicacies. A must for seafood lovers and those seeking authentic provincial flavors.",
+      "tags": ["Daily", "4:00 AM - 7:00 PM", "Not PWD Accessible", "Free Entrance"],
+      "region": "Cebu City, Cebu"
+    },
+    {
+      "id": "24",
+      "name": "Roxas Night Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-9.jpg",
+      "description": "A lively night market with affordable street food, fresh seafood, and Mindanao influences. One of the wilder and more energetic spots in the south.",
+      "tags": ["Daily", "5:00 AM - 12:00 AM", "Not PWD Accessible", "Free Entrance"],
+      "region": "Davao City, Davao del Sur"
+    },
+    {
+      "id": "25",
       "name": "Enchanted Kingdom",
       "category": "Leisure & Entertainment",
       "rating": 5,
       "image": "images/4-1.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekend", "PWD Accessible", "1:00 PM – 8:00 PM"],
+      "description": "The country’s premier theme park featuring thrill rides like the Space Shuttle and the Agila EKsperience.",
+      "tags": ["Friday - Sunday", "1:00 PM - 8:00 PM", "PWD Accessible", "Entrance: ₱800", "Student Discount: 10% - 25%"],
       "region": "Sta. Rosa, Laguna"
     },
     {
-      "id": "14",
+      "id": "26",
       "name": "Star City",
       "category": "Leisure & Entertainment",
       "rating": 5,
       "image": "images/4-2.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Tuesday–Friday", "PWD Accessible", "2:00 PM – 10:00 PM"],
-      "region": "Pasay"
+      "description": "An indoor/outdoor amusement park located in Pasay City, known for its snow world and diverse carnival rides.",
+      "tags": ["Tuesday - Friday", "2:00 PM - 10:00 PM", "PWD Accessible", "Entrance: ₱779", "Student Discount: 25%"],
+      "region": "Pasay City, Metro Manila"
     },
     {
-      "id": "15",
+      "id": "27",
       "name": "Manila Ocean Park",
       "category": "Leisure & Entertainment",
       "rating": 5,
       "image": "images/4-3.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "PWD Accessible", "10:00 AM – 6:00 PM"],
-      "region": "Manila"
+      "description": "A world-class oceanarium and marine-themed park behind the Quirino Grandstand in Manila.",
+      "tags": ["Monday - Friday", "10:00 AM - 6:00 PM", "PWD Accessible", "Entrance: ₱450 - ₱950", "Student Discount: 20% - 30%"],
+      "region": "Manila, Metro Manila"
     },
     {
-      "id": "16",
-      "name": "Mayon Volcano View Deck ",
+      "id": "28",
+      "name": "SuperPark Philippines",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-4.jpg",
+      "description": "A modern indoor activity park with over 20 interactive games, trampolines, climbing walls, slides, and digital experiences like Floor is Lava.",
+      "tags": ["Daily", "10:00 AM - 10:00 PM", "PWD Accessible", "Entrance: ₱600 - ₱999", "Student Discount: 20%"],
+      "region": "Taguig, Metro Manila"
+    },
+    {
+      "id": "29",
+      "name": "Dinosaurs Island Clark",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-5.jpg",
+      "description": "First animatronic dinosaur theme park featuring life-sized moving dinosaurs, educational exhibits, and interactive attractions.",
+      "tags": ["Daily", "8:00 AM - 6:00 PM", "PWD Accessible", "Entrance: ₱700 - ₱1200", "Student Discount: Yes"],
+      "region": "Mabalacat, Pampanga"
+    },
+    {
+      "id": "30",
+      "name": "Sky Ranch Pampanga",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-6.jpg",
+      "description": "A popular amusement park featuring thrilling rides like the giant Ferris wheel (Pampanga Eye), roller coasters, and family attractions.",
+      "tags": ["Daily", "11:00 AM - 8:00 PM", "PWD Accessible", "Entrance: ₱300 - ₱1500+", "Student Discount: Yes"],
+      "region": "San Fernando, Pampanga"
+    },
+    {
+      "id": "31",
+      "name": "Gootopia",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-7.jpg",
+      "description": "Philippines’ first slime-themed fun house featuring gooey challenges, slime-making, interactive games, and obstacles.",
+      "tags": ["Daily", "10:00 AM - 10:00 PM", "PWD Accessible", "Entrance: ₱599 - ₱799+", "Student Discount: Yes"],
+      "region": "Pasay City, Metro Manila"
+    },
+    {
+      "id": "32",
+      "name": "DreamPlay by DreamWorks",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-8.jpg",
+      "description": "World’s first DreamWorks-themed indoor interactive play center featuring 12 attractions with characters from Shrek, Trolls, Kung Fu Panda, and more.",
+      "tags": ["Daily", "11:00 AM - 8:00 PM", "PWD Accessible", "Entrance: ₱1500"],
+      "region": "Paranaque City, Metro Manila"
+    },
+    {
+      "id": "33",
+      "name": "Anjo World Theme Park",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-9.jpg",
+      "description": "Cebu’s first and largest world-class amusement park featuring over 12 rides, family attractions, and an indoor Snow World.",
+      "tags": ["Wed - Sun", "12:00 PM - 8:00 PM", "PWD Accessible", "Entrance: ₱450 - ₱800+", "Student Discount: Yes"],
+      "region": "Minglanilla, Cebu"
+    },
+    {
+      "id": "34",
+      "name": "Space & Time Cube",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-10.jpg",
+      "description": "Philippines’ first immersive digital art museum featuring 18-20 themed attractions with interactive installations, optical illusions, LED tunnels, and somatosensory games.",
+      "tags": ["Daily", "10:00 AM - 10:00 PM", "PWD Accessible", "Entrance: ₱880"],
+      "region": "Pasay City, Metro Manila"
+    },
+    {
+      "id": "35",
+      "name": "Dessert Museum",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-11.jpg",
+      "description": "A fun, interactive museum with 8+ colorful dessert-themed rooms for photos, free desserts, and unlimited ice cream.",
+      "tags": ["Daily", "10:00 AM - 10:00 PM", "PWD Accessible", "Entrance: ₱799", "Student Discount: Yes"],
+      "region": "Pasay City, Metro Manila"
+    },
+    {
+      "id": "36",
+      "name": "SM by the Bay Amusement Park",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/4-12.jpg",
+      "description": "A seaside outdoor amusement park beside SM Mall of Asia featuring thrilling rides, family attractions, and scenic Manila Bay views.",
+      "tags": ["Daily", "1:00 PM - 12:00 AM", "Not PWD Accessible", "Entrance: ₱350 - ₱800+", "Student Discount: Yes"],
+      "region": "Pasay City, Metro Manila"
+    },
+    {
+      "id": "37",
+      "name": "Mayon Volcano View Deck",
       "category": "Sightseeing",
       "rating": 5,
       "image": "images/5-1.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "Anytime"],
-      "region": "Albay"
+      "description": "Various spots in Albay offering panoramic views of the world-famous \"perfect cone\" volcano.",
+      "tags": ["Daily", "Anytime", "PWD Accessible", "Free Entrance"],
+      "region": "Legazpi City, Albay"
     },
     {
-      "id": "17",
+      "id": "38",
       "name": "Banaue Rice Terraces",
       "category": "Sightseeing",
       "rating": 5,
       "image": "images/5-2.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "Anytime"],
-      "region": "Ifugao"
+      "description": "Ancient man-made rice paddies carved into the mountains, a UNESCO World Heritage site.",
+      "tags": ["Daily", "Anytime", "Limited PWD Access", "Entrance: ₱20 (Env. Fee)"],
+      "region": "Banaue, Ifugao"
     },
     {
-      "id": "18",
+      "id": "39",
       "name": "Cape Bojeador Lighthouse",
       "category": "Sightseeing",
       "rating": 5,
       "image": "images/5-3.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Daily", "PWD Accessible", "Anytime"],
-      "region": "Ilocos Norte"
+      "description": "A historic Spanish-colonial lighthouse in Burgos, Ilocos Norte, offering stunning views of the West Philippine Sea.",
+      "tags": ["Daily", "Anytime", "Limited PWD Access", "Entrance: ₱50", "Student Discount: ₱40"],
+      "region": "Burgos, Ilocos Norte"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "40",
+      "name": "Chocolate Hills",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "images/5-4.jpg",
+      "description": "Consists of more than 1,200 naturally formed hills that turn brown during dry season.",
+      "tags": ["Daily", "8:00 AM - 5:00 PM", "Limited PWD Access", "Entrance: ₱100", "Student Discount: 10% - 20%"],
+      "region": "Carmen, Bohol"
+    },
+    {
+      "id": "41",
+      "name": "Vigan Calle Crisologo",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "images/5-5.jpg",
+      "description": "A UNESCO World Heritage Site known for preserved Spanish colonial streets and ancestral houses.",
+      "tags": ["Daily", "Anytime", "PWD Accessible", "Free Entrance"],
+      "region": "Vigan, Ilocos Sur"
+    },
+    {
+      "id": "42",
+      "name": "Burnham Park",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "images/5-6.jpg",
+      "description": "A famous urban park in the Summer Capital of the Philippines known for boating, biking, and cool weather.",
+      "tags": ["Daily", "Anytime", "PWD Accessible", "Free Entrance", "Student Discount: 10% - 20%"],
+      "region": "Baguio City, Benguet"
+    },
+    {
+      "id": "43",
+      "name": "El Nido Lagoons",
       "category": "Water-Based",
       "rating": 5,
       "image": "images/6-1.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "description": "Iconic turquoise lagoons surrounded by limestone karst cliffs, accessible via island-hopping tours (Tour A).",
+      "tags": ["Daily", "6:00 AM - 5:00 PM", "Not PWD Accessible", "Entrance: ₱400 (Env. Fee)"],
+      "region": "El Nido, Palawan"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "44",
+      "name": "Hundred Islands",
       "category": "Water-Based",
       "rating": 5,
       "image": "images/6-2.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "description": "A national park in Alaminos, Pangasinan, consisting of 124 islands scattered in the Lingayen Gulf.",
+      "tags": ["Daily", "Anytime", "Limited PWD Access", "Entrance: ₱120", "Student Discount: 20% on Env. Fee"],
+      "region": "Alaminos, Pangasinan"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "45",
+      "name": "Subic Beaches",
       "category": "Water-Based",
       "rating": 5,
       "image": "images/6-3.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "description": "Subic’s beaches—such as All Hands Beach, Camayan, and Hidden Beach—offer family-friendly coastal spots within a freeport zone.",
+      "tags": ["Daily", "9:00 AM - 5:30 PM", "Limited PWD Access", "Entrance: ₱100 - ₱500+"],
+      "region": "Subic, Zambales"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "46",
+      "name": "Boracay Island",
       "category": "Water-Based",
       "rating": 5,
-      "image": "images/7-1.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "image": "images/6-4.jpg",
+      "description": "Known worldwide for its white sand beaches, nightlife, and water activities.",
+      "tags": ["Daily", "Anytime", "PWD Accessible", "Entrance: ₱150 (Env. Fee)", "Student Discount: 20% on Env. Fee"],
+      "region": "Malay, Aklan"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "47",
+      "name": "Kawasan Falls",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "images/6-5.jpg",
+      "description": "Popular for canyoneering, cliff jumping, and turquoise blue waterfalls.",
+      "tags": ["Mon - Fri", "6:00 AM - 5:00 PM", "Not PWD Accessible", "Entrance: ₱200", "Student Discount: 10% - 15%"],
+      "region": "Badian, Cebu"
+    },
+    {
+      "id": "48",
+      "name": "Siargao Island",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "images/6-6.jpg",
+      "description": "Known as the surfing capital of the Philippines and famous for lagoons, beaches, and island hopping.",
+      "tags": ["Daily", "Anytime", "Limited PWD Access", "Entrance: ₱100", "Student Discount: 10% - 20%"],
+      "region": "General Luna, Surigao Del Norte"
+    },
+    {
+      "id": "49",
+      "name": "Apo Island",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "images/6-7.jpg",
+      "description": "Famous for snorkeling with sea turtles and protected coral reefs.",
+      "tags": ["Daily", "7:00 AM - 5:00 PM", "Limited PWD Access", "Entrance: ₱300", "Student Discount: 10% - 20%"],
+      "region": "Dauin, Negros Oriental"
+    },
+    {
+      "id": "50",
+      "name": "Mount Pulag",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "images/7-1.jpg",
+      "description": "As the highest mountain in Luzon, it is famous for its breathtaking sea of clouds, unique grassland ecosystem, and pine forests.",
+      "tags": ["Daily (Booking Req.)", "Anytime", "Not PWD Accessible", "Entrance: ₱4000 - ₱5000"],
+      "region": "Kabayan, Benguet"
+    },
+    {
+      "id": "51",
+      "name": "Taal Volcano",
       "category": "Outdoor and Nature",
       "rating": 5,
       "image": "images/7-2.jpg",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "description": "While the volcano remains an active geological site, boat tours from Talisay, Batangas, allow visitors to cruise the lake and view the crater's aftermath.",
+      "tags": ["Daily", "Anytime", "Not PWD Accessible", "Entrance: ₱50 - ₱3000"],
+      "region": "Talisay, Batangas"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "52",
+      "name": "Sagada Caves",
       "category": "Outdoor and Nature",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "image": "images/7-3.jpg",
+      "description": "Known as the \"Big Cave,\" it is the most popular spelunking site in Sagada. It features massive rock formations, underground pools, and challenging terrain.",
+      "tags": ["Daily", "6:00 AM - 5:00 PM", "Not PWD Accessible", "Entrance: ₱100 - ₱800"],
+      "region": "Sagada, Mountain Province"
     },
     {
-      "id": "10",
-      "name": "Coastal Paradise",
+      "id": "53",
+      "name": "Puerto Princesa Underground River",
       "category": "Outdoor and Nature",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
-      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
-      "region": "Philippines, Palawan"
+      "image": "images/7-4.jpg",
+      "description": "A UNESCO World Heritage Site and one of the New 7 Wonders of Nature.",
+      "tags": ["Daily", "8:00 AM - 4:00 PM", "Limited PWD Access", "Entrance: ₱400", "Student Discount: 10% - 20%"],
+      "region": "Puerto Princesa, Palawan"
+    },
+    {
+      "id": "54",
+      "name": "Lake Sebu",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "images/7-5.jpg",
+      "description": "Known for T’boli culture, Seven Falls, and scenic lakes.",
+      "tags": ["Daily", "6:00 AM - 6:00 PM", "Limited PWD Access", "Free Entrance"],
+      "region": "Lake Sebu, South Cotabato"
+    },
+    {
+      "id": "55",
+      "name": "Mount Apo",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "images/7-6.jpg",
+      "description": "Mount Apo Natural Park is the highest mountain in the Philippines. It is famous for challenging hikes, mossy forests, and panoramic summit views.",
+      "tags": ["Daily", "Anytime", "Not PWD Accessible", "Entrance: ₱5000 - ₱13000+"],
+      "region": "Mount Apo, Davao Region"
     }
   ],
   "tripRoutes": [
     {
       "id": "r1",
       "locationId": "1",
-      "name": "Paris City Explorer",
-      "region": "Île-de-France, Paris",
-      "route": "CDG Airport → Metro Line 1 → Champ de Mars → Eiffel Tower",
-      "transportation": "Metro (Line 6 or RER C to Champ de Mars)",
-      "bestWeather": "Spring (April-June) or Fall (September-October)",
-      "bestTime": "Early morning (9-10am) or late evening (7-9pm) for sunset views"
+      "name": "National Museum of Natural History",
+      "region": "Manila, Metro Manila",
+      "route": "Accessible via taxi, jeepney, or the United Nations LRT-1 station.",
+      "transportation": "LRT / Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 6:00 PM"
     },
     {
       "id": "r2",
       "locationId": "2",
-      "name": "Ancient Rome Circuit",
-      "region": "Lazio, Rome",
-      "route": "Termini Station → Metro Line B → Colosseo Station → Roman Forum → Colosseum",
-      "transportation": "Metro Line B (Colosseo Station)",
-      "bestWeather": "Spring (March-May) or Fall (September-November)",
-      "bestTime": "Early morning (8:30-10am) to avoid crowds"
+      "name": "National Museum of Anthropology",
+      "region": "Manila, Metro Manila",
+      "route": "Accessible via taxi, jeepney, or the United Nations LRT-1 station.",
+      "transportation": "LRT / Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 6:00 PM"
     },
     {
       "id": "r3",
       "locationId": "3",
-      "name": "London Historic Walk",
-      "region": "Greater London, Westminster",
-      "route": "Westminster Tube → Parliament Square → Big Ben → Westminster Abbey",
-      "transportation": "Underground (Westminster, Jubilee/Circle/District lines)",
-      "bestWeather": "Late Spring to Early Fall (May-September)",
-      "bestTime": "Mid-morning (10am-12pm) for best photos"
+      "name": "National Museum of Fine Arts",
+      "region": "Manila, Metro Manila",
+      "route": "Walkable from the National Museum of Anthropology and Natural History.",
+      "transportation": "Walking / LRT / Taxi",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 6:00 PM"
     },
     {
       "id": "r4",
       "locationId": "4",
-      "name": "Agra Heritage Tour",
-      "region": "Uttar Pradesh, Agra",
-      "route": "Delhi → Yamuna Expressway → Agra → Taj Mahal East Gate",
-      "transportation": "Train (Gatimaan Express) or Car (3-4 hour drive)",
-      "bestWeather": "October to March (cooler temperatures)",
-      "bestTime": "Sunrise (6-8am) for magical lighting and fewer tourists"
+      "name": "Digital National Art Museum (DNA Museum)",
+      "region": "Manila, Metro Manila",
+      "route": "Take a taxi or jeepney from Taft Avenue toward the Luneta/Ocean Park area.",
+      "transportation": "Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 8:00 PM"
     },
     {
       "id": "r5",
       "locationId": "5",
-      "name": "Paris Art & Culture",
-      "region": "Île-de-France, Paris",
-      "route": "Palais Royal-Musée du Louvre Metro → Louvre Pyramid Entrance",
-      "transportation": "Metro Line 1 or 7 (Palais Royal station)",
-      "bestWeather": "Year-round (indoor attraction)",
-      "bestTime": "Wednesday or Friday evenings (extended hours, fewer crowds)"
+      "name": "Museo Sugbo",
+      "region": "Cebu City, Cebu",
+      "route": "From Mactan-Cebu Airport, ride a taxi or MyBus to Cebu City proper, then ride a jeepney to Museo Sugbo.",
+      "transportation": "Flight / Taxi / Bus / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 5:30 PM"
     },
     {
       "id": "r6",
-      "locationId": "7",
-      "name": "Bangkok Street Food Adventure",
-      "region": "Bangkok, Thailand",
-      "route": "BTS Skytrain → Street Market District → Walking Food Tour",
-      "transportation": "BTS Skytrain or Taxi",
-      "bestWeather": "November to February (cooler, dry season)",
-      "bestTime": "Evening (6-9pm) when markets are most vibrant"
+      "locationId": "6",
+      "name": "Negros Museum",
+      "region": "Bacolod, Negros Occidental",
+      "route": "From Bacolod-Silay Airport, ride a shuttle or taxi to Bacolod City proper, then proceed to the Provincial Capitol area.",
+      "transportation": "Flight / Shuttle / Taxi",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 6:00 PM"
     },
     {
       "id": "r7",
+      "locationId": "7",
+      "name": "Ponce Suites Gallery Hotel",
+      "region": "Davao City, Davao del Sur",
+      "route": "From Davao International Airport, ride a taxi to Bajada, Davao City.",
+      "transportation": "Flight / Taxi",
+      "bestWeather": "Year-round",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r8",
+      "locationId": "8",
+      "name": "Fort Santiago",
+      "region": "Manila, Metro Manila",
+      "route": "Accessible via jeepney, taxi, or walking from the Central Terminal LRT station.",
+      "transportation": "LRT / Jeepney / Taxi",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 11:00 PM"
+    },
+    {
+      "id": "r9",
       "locationId": "9",
-      "name": "Maldives Island Escape",
-      "region": "Maldives, North Malé Atoll",
-      "route": "Velana International Airport → Speedboat Transfer → Resort Island",
-      "transportation": "Speedboat or Seaplane (30-45 minutes)",
-      "bestWeather": "November to April (dry season)",
-      "bestTime": "Anytime - resort offers 24/7 amenities"
+      "name": "Intramuros",
+      "region": "Manila, Metro Manila",
+      "route": "Accessible by Intramuros shuttle, taxi, or walking from the Central Terminal LRT station.",
+      "transportation": "LRT / Shuttle / Walking",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r10",
+      "locationId": "10",
+      "name": "Rizal Park",
+      "region": "Manila, Metro Manila",
+      "route": "Short walk from the United Nations LRT-1 station or any jeepney heading to Luneta.",
+      "transportation": "LRT / Jeepney / Walking",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "5:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r11",
+      "locationId": "11",
+      "name": "Baluarte de San Diego",
+      "region": "Manila, Metro Manila",
+      "route": "Located within the southern part of Intramuros. Accessible by pedicab or walking.",
+      "transportation": "Walking / Pedicab",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r12",
+      "locationId": "12",
+      "name": "Corregidor Island",
+      "region": "Cavite City, Cavite",
+      "route": "Book a ferry tour package. Ferries operate from terminals near the CCP complex or Mall of Asia.",
+      "transportation": "Ferry",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Requires Booking"
+    },
+    {
+      "id": "r13",
+      "locationId": "13",
+      "name": "Fort San Pedro",
+      "region": "Cebu City, Cebu",
+      "route": "From Mactan-Cebu Airport, take a taxi or MyBus to Cebu City and proceed to Plaza Independencia.",
+      "transportation": "Flight / Taxi / Bus",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 7:00 PM"
+    },
+    {
+      "id": "r14",
+      "locationId": "14",
+      "name": "Aguinaldo Shrine",
+      "region": "Kawit, Cavite",
+      "route": "Take a bus bound for Cavite/Kawit from the PITX terminal, then ride a tricycle to the shrine.",
+      "transportation": "Bus / Tricycle",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 4:00 PM"
+    },
+    {
+      "id": "r15",
+      "locationId": "15",
+      "name": "Barasoain Church",
+      "region": "Malolos, Bulacan",
+      "route": "Take a bus bound for Malolos, Bulacan from Monumento or Cubao, then ride a tricycle to the church.",
+      "transportation": "Bus / Tricycle",
+      "bestWeather": "Year-round",
+      "bestTime": "6:00 AM - 6:00 PM"
+    },
+    {
+      "id": "r16",
+      "locationId": "16",
+      "name": "Baler Public Market",
+      "region": "Baler, Aurora",
+      "route": "Take a bus (JoyBus or Genesis) directly to the Baler terminal, then take a short tricycle ride.",
+      "transportation": "Bus / Tricycle",
+      "bestWeather": "Year-round",
+      "bestTime": "4:00 AM - 8:00 PM"
+    },
+    {
+      "id": "r17",
+      "locationId": "17",
+      "name": "Baguio Night Market",
+      "region": "Baguio City, Benguet",
+      "route": "Take a bus to Baguio City. The market is centrally located near Burnham Park along Harrison Road.",
+      "transportation": "Bus / Walking / Taxi",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "9:00 PM - 2:00 AM"
+    },
+    {
+      "id": "r18",
+      "locationId": "18",
+      "name": "Pampanga Food Hubs",
+      "region": "San Fernando, Pampanga",
+      "route": "Accessible via NLEX. Take a bus to San Fernando or Angeles City.",
+      "transportation": "Bus / Private Vehicle",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r19",
+      "locationId": "19",
+      "name": "Salcedo Weekend Market",
+      "region": "Makati, Metro Manila",
+      "route": "Take the MRT-3 to Ayala Station, then walk or ride a jeepney to Jaime Velasquez Park in Salcedo Village.",
+      "transportation": "MRT / Jeepney / Walking",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "7:00 AM - 2:00 PM"
+    },
+    {
+      "id": "r20",
+      "locationId": "20",
+      "name": "Quiapo Market",
+      "region": "Manila, Metro Manila",
+      "route": "Take the LRT-1 to Carriedo Station, then walk to Quiapo Church and the surrounding market.",
+      "transportation": "LRT / Walking",
+      "bestWeather": "Year-round",
+      "bestTime": "9:00 AM - 6:00 PM"
+    },
+    {
+      "id": "r21",
+      "locationId": "21",
+      "name": "Divisoria Market",
+      "region": "Manila, Metro Manila",
+      "route": "Take the LRT-2 to Recto Station. From Recto, walk or take a short tricycle/jeepney ride to Divisoria.",
+      "transportation": "LRT / Jeepney / Tricycle",
+      "bestWeather": "Year-round",
+      "bestTime": "5:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r22",
+      "locationId": "22",
+      "name": "Carbon Market",
+      "region": "Cebu City, Cebu",
+      "route": "From Mactan-Cebu International Airport, take a taxi or airport bus + jeepney to downtown Carbon.",
+      "transportation": "Flight / Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "5:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r23",
+      "locationId": "23",
+      "name": "Taboan Public Market",
+      "region": "Cebu City, Cebu",
+      "route": "From Mactan-Cebu International Airport, take a taxi or jeepney to Taboan.",
+      "transportation": "Flight / Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "4:00 AM - 7:00 PM"
+    },
+    {
+      "id": "r24",
+      "locationId": "24",
+      "name": "Roxas Night Market",
+      "region": "Davao City, Davao del Sur",
+      "route": "From Davao International Airport, take a taxi to Roxas Avenue.",
+      "transportation": "Flight / Taxi",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "5:00 PM - 12:00 AM"
+    },
+    {
+      "id": "r25",
+      "locationId": "25",
+      "name": "Enchanted Kingdom",
+      "region": "Sta. Rosa, Laguna",
+      "route": "Take a shuttle from Makati or a bus from Buendia/Pasay to Balibago, Sta. Rosa.",
+      "transportation": "Bus / Shuttle",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "1:00 PM - 8:00 PM"
+    },
+    {
+      "id": "r26",
+      "locationId": "26",
+      "name": "Star City",
+      "region": "Pasay City, Metro Manila",
+      "route": "Accessible via taxi or jeepney from Taft Avenue/Roxas Boulevard.",
+      "transportation": "Taxi / Jeepney",
+      "bestWeather": "Year-round (Indoor Focus)",
+      "bestTime": "2:00 PM - 10:00 PM"
+    },
+    {
+      "id": "r27",
+      "locationId": "27",
+      "name": "Manila Ocean Park",
+      "region": "Manila, Metro Manila",
+      "route": "Take the LRT-1 to United Nations Station, then take a short taxi or pedicab ride behind Quirino Grandstand.",
+      "transportation": "LRT / Taxi / Pedicab",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 6:00 PM"
+    },
+    {
+      "id": "r28",
+      "locationId": "28",
+      "name": "SuperPark Philippines",
+      "region": "Taguig, Metro Manila",
+      "route": "Take the MRT-3 to Ortigas or Ayala, then ride a jeepney/taxi to McKinley Hill, Taguig.",
+      "transportation": "MRT / Taxi / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r29",
+      "locationId": "29",
+      "name": "Dinosaurs Island Clark",
+      "region": "Mabalacat, Pampanga",
+      "route": "Take a bus to Dau Terminal or SM Clark, then take a local jeepney/taxi into the Clark Freeport Zone.",
+      "transportation": "Bus / Taxi / Jeepney",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 6:00 PM"
+    },
+    {
+      "id": "r30",
+      "locationId": "30",
+      "name": "Sky Ranch Pampanga",
+      "region": "San Fernando, Pampanga",
+      "route": "Take a provincial bus to San Fernando / Dau Terminal, then take a jeepney/taxi to SM City Pampanga.",
+      "transportation": "Bus / Taxi / Jeepney",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "11:00 AM - 8:00 PM"
+    },
+    {
+      "id": "r31",
+      "locationId": "31",
+      "name": "Gootopia",
+      "region": "Pasay City, Metro Manila",
+      "route": "Take the MRT-3 to Taft Avenue Station, then transfer to a jeepney or taxi heading to SM Mall of Asia.",
+      "transportation": "MRT / Jeepney / Taxi",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r32",
+      "locationId": "32",
+      "name": "DreamPlay by DreamWorks",
+      "region": "Paranaque City, Metro Manila",
+      "route": "Take the MRT-3 to Taft Avenue Station, then ride a bus or taxi directly to City of Dreams Manila.",
+      "transportation": "MRT / Bus / Taxi",
+      "bestWeather": "Year-round",
+      "bestTime": "11:00 AM - 8:00 PM"
+    },
+    {
+      "id": "r33",
+      "locationId": "33",
+      "name": "Anjo World Theme Park",
+      "region": "Minglanilla, Cebu",
+      "route": "From Mactan-Cebu International Airport, take a taxi or Grab south to Minglanilla.",
+      "transportation": "Flight / Taxi",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "12:00 PM - 8:00 PM"
+    },
+    {
+      "id": "r34",
+      "locationId": "34",
+      "name": "Space & Time Cube",
+      "region": "Pasay City, Metro Manila",
+      "route": "Take the MRT-3 to Taft Avenue, then ride a jeepney to SM Mall of Asia / S Maison.",
+      "transportation": "MRT / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r35",
+      "locationId": "35",
+      "name": "Dessert Museum",
+      "region": "Pasay City, Metro Manila",
+      "route": "Take the MRT-3 to Taft Avenue, then ride a jeepney to SM Mall of Asia / S Maison.",
+      "transportation": "MRT / Jeepney",
+      "bestWeather": "Year-round",
+      "bestTime": "10:00 AM - 10:00 PM"
+    },
+    {
+      "id": "r36",
+      "locationId": "36",
+      "name": "SM by the Bay Amusement Park",
+      "region": "Pasay City, Metro Manila",
+      "route": "Take the MRT-3 to Taft Avenue, then ride a jeepney to SM Mall of Asia and walk to the bay area.",
+      "transportation": "MRT / Jeepney / Walking",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "1:00 PM - 12:00 AM"
+    },
+    {
+      "id": "r37",
+      "locationId": "37",
+      "name": "Mayon Volcano View Deck",
+      "region": "Legazpi City, Albay",
+      "route": "Fly or take a bus to Legazpi, then use local transport or a rental car to visit specific view decks.",
+      "transportation": "Flight / Bus / Taxi",
+      "bestWeather": "Dry Season: Feb - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r38",
+      "locationId": "38",
+      "name": "Banaue Rice Terraces",
+      "region": "Banaue, Ifugao",
+      "route": "Take a direct overnight bus from Manila to Banaue.",
+      "transportation": "Bus",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r39",
+      "locationId": "39",
+      "name": "Cape Bojeador Lighthouse",
+      "region": "Burgos, Ilocos Norte",
+      "route": "Fly or take a bus to Laoag, then hire a car or tricycle for the 45-minute drive to Burgos.",
+      "transportation": "Flight / Bus / Tricycle",
+      "bestWeather": "Dry Season: Nov - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r40",
+      "locationId": "40",
+      "name": "Chocolate Hills",
+      "region": "Carmen, Bohol",
+      "route": "Fly to Bohol (Panglao Airport), then book a van or countryside tour heading to Carmen.",
+      "transportation": "Flight / Van / Tour Bus",
+      "bestWeather": "Dry Season: Dec - May (Brown Hills)",
+      "bestTime": "8:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r41",
+      "locationId": "41",
+      "name": "Vigan Calle Crisologo",
+      "region": "Vigan, Ilocos Sur",
+      "route": "Take a direct bus from Manila (Cubao/Pasay) to Vigan.",
+      "transportation": "Bus",
+      "bestWeather": "Dry Season: Nov - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r42",
+      "locationId": "42",
+      "name": "Burnham Park",
+      "region": "Baguio City, Benguet",
+      "route": "Take a direct bus from Manila to Baguio City, then take a taxi or jeepney to the park.",
+      "transportation": "Bus / Taxi",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r43",
+      "locationId": "43",
+      "name": "El Nido Lagoons",
+      "region": "El Nido, Palawan",
+      "route": "Fly directly to El Nido (Lio Airport), or fly to Puerto Princesa and take a 5-6 hour van transfer to El Nido town.",
+      "transportation": "Flight / Van / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "6:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r44",
+      "locationId": "44",
+      "name": "Hundred Islands",
+      "region": "Alaminos, Pangasinan",
+      "route": "Take a bus from Manila to Alaminos City, then a tricycle to Lucap Wharf to rent a boat.",
+      "transportation": "Bus / Tricycle / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r45",
+      "locationId": "45",
+      "name": "Subic Beaches",
+      "region": "Subic, Zambales",
+      "route": "Take a bus bound for Olongapo/Subic via NLEX/SCTEX. From the terminal, take a taxi or rent a car into the Freeport Zone.",
+      "transportation": "Bus / Taxi / Private Vehicle",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "9:00 AM - 5:30 PM"
+    },
+    {
+      "id": "r46",
+      "locationId": "46",
+      "name": "Boracay Island",
+      "region": "Malay, Aklan",
+      "route": "Fly to Caticlan, ride a tricycle to the Jetty Port, take a boat to Boracay Island, and ride a tricycle/van to your station.",
+      "transportation": "Flight / Tricycle / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r47",
+      "locationId": "47",
+      "name": "Kawasan Falls",
+      "region": "Badian, Cebu",
+      "route": "Fly to Cebu, take a bus from the South Bus Terminal to Badian, then ride a habal-habal (motorcycle) to the falls.",
+      "transportation": "Flight / Bus / Habal-Habal",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "6:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r48",
+      "locationId": "48",
+      "name": "Siargao Island",
+      "region": "General Luna, Surigao Del Norte",
+      "route": "Fly to Siargao (Sayak Airport), then ride a van or tricycle to General Luna to join island hopping tours.",
+      "transportation": "Flight / Van / Boat",
+      "bestWeather": "Dry Season: Mar - Oct",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r49",
+      "locationId": "49",
+      "name": "Apo Island",
+      "region": "Dauin, Negros Oriental",
+      "route": "Fly to Dumaguete, ride a van or tricycle to Malatapay Port (Dauin), then take a motorized boat to Apo Island.",
+      "transportation": "Flight / Van / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "7:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r50",
+      "locationId": "50",
+      "name": "Mount Pulag",
+      "region": "Kabayan, Benguet",
+      "route": "Take a bus to Baguio City. From Baguio, hire a private van or take a local jeepney to the DENR Ranger Station in Kabayan.",
+      "transportation": "Bus / Van / Jeepney",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r51",
+      "locationId": "51",
+      "name": "Taal Volcano",
+      "region": "Talisay, Batangas",
+      "route": "Drive or take a bus south via SLEX/STAR Tollway to Talisay, Batangas, then hire a local boat to view the island.",
+      "transportation": "Bus / Private Vehicle / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "Anytime"
+    },
+    {
+      "id": "r52",
+      "locationId": "52",
+      "name": "Sagada Caves",
+      "region": "Sagada, Mountain Province",
+      "route": "Take a direct overnight bus from Manila to Sagada, or transit via Baguio. Register at the local Tourism Center in town.",
+      "transportation": "Bus / Walking",
+      "bestWeather": "Dry Season: Nov - May",
+      "bestTime": "6:00 AM - 5:00 PM"
+    },
+    {
+      "id": "r53",
+      "locationId": "53",
+      "name": "Puerto Princesa Underground River",
+      "region": "Puerto Princesa, Palawan",
+      "route": "Fly to Puerto Princesa Airport, take a van or bus to Sabang Wharf, then ride a boat to the Underground River site.",
+      "transportation": "Flight / Van / Boat",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "8:00 AM - 4:00 PM"
+    },
+    {
+      "id": "r54",
+      "locationId": "54",
+      "name": "Lake Sebu",
+      "region": "Lake Sebu, South Cotabato",
+      "route": "Fly to General Santos City, take a bus/van to Koronadal, then transfer to a van bound for Lake Sebu.",
+      "transportation": "Flight / Bus / Van",
+      "bestWeather": "Dry Season: Dec - May",
+      "bestTime": "6:00 AM - 6:00 PM"
+    },
+    {
+      "id": "r55",
+      "locationId": "55",
+      "name": "Mount Apo",
+      "region": "Mount Apo, Davao Region",
+      "route": "Fly to Davao City, then take a bus/van to a jump-off point like Kapatagan or Sta. Cruz.",
+      "transportation": "Flight / Bus / Van",
+      "bestWeather": "Dry Season: Mar - May",
+      "bestTime": "Anytime"
     }
   ],
   "categories": [
     "Museums and Galleries",
     "Historical Sites",
     "Food and Market",
-    "Leisure and Entertainment",
+    "Leisure & Entertainment",
     "Sightseeing",
     "Water-Based",
     "Outdoor and Nature"
