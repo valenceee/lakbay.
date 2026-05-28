@@ -125,7 +125,7 @@
       "name": "Enchanted Kingdom",
       "category": "Leisure & Entertainment",
       "rating": 5,
-      "image": "images/3-4.jpg",
+      "image": "images/4-1.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekend", "PWD Accessible", "1:00 PM – 8:00 PM"],
       "region": "Sta. Rosa, Laguna"
@@ -135,7 +135,7 @@
       "name": "Star City",
       "category": "Leisure & Entertainment",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/4-2.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Tuesday–Friday", "PWD Accessible", "2:00 PM – 10:00 PM"],
       "region": "Pasay"
@@ -145,7 +145,7 @@
       "name": "Manila Ocean Park",
       "category": "Leisure & Entertainment",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/4-3.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "PWD Accessible", "10:00 AM – 6:00 PM"],
       "region": "Manila"
@@ -155,7 +155,7 @@
       "name": "Mayon Volcano View Deck ",
       "category": "Sightseeing",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/5-1.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Daily", "PWD Accessible", "Anytime"],
       "region": "Albay"
@@ -165,7 +165,7 @@
       "name": "Banaue Rice Terraces",
       "category": "Sightseeing",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/5-2.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Daily", "PWD Accessible", "Anytime"],
       "region": "Ifugao"
@@ -175,7 +175,7 @@
       "name": "Cape Bojeador Lighthouse",
       "category": "Sightseeing",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/5-3.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Daily", "PWD Accessible", "Anytime"],
       "region": "Ilocos Norte"
@@ -185,7 +185,7 @@
       "name": "Coastal Paradise",
       "category": "Water-Based",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/6-1.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
       "region": "Philippines, Palawan"
@@ -195,7 +195,7 @@
       "name": "Coastal Paradise",
       "category": "Water-Based",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/6-2.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
       "region": "Philippines, Palawan"
@@ -205,7 +205,7 @@
       "name": "Coastal Paradise",
       "category": "Water-Based",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/6-3.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
       "region": "Philippines, Palawan"
@@ -215,7 +215,7 @@
       "name": "Coastal Paradise",
       "category": "Water-Based",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/7-1.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
       "region": "Philippines, Palawan"
@@ -225,7 +225,7 @@
       "name": "Coastal Paradise",
       "category": "Outdoor and Nature",
       "rating": 5,
-      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "image": "images/7-2.jpg",
       "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
       "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
       "region": "Philippines, Palawan"
