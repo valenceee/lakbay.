@@ -1,0 +1,335 @@
+{
+  "locations": [
+    {
+      "id": "1",
+      "name": "National Museum of Natural History ",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-1.jpg",
+      "description": "Features an iconic \"Tree of Life\" atrium housing significant zoological, botanical, and geological specimens.",
+      "tags": ["Daily", "PWD Accessible", "9:00 AM – 6:00 PM"],
+      "region": "Manila"
+    },
+    {
+      "id": "2",
+      "name": "National Museum of Anthropology",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-2.jpg",
+      "description": "Housed in a neoclassical building, this museum showcases the rich cultural heritage and archaeological history of the Philippines.",
+      "tags": ["Daily", "Limited PWD Access", "9:00 AM – 6:00 PM"],
+      "region": "Manila"
+    },
+    {
+      "id": "3",
+      "name": "National Museum of Fine Arts",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-3.jpg",
+      "description": "Big Ben is the nickname for the Great Bell of the striking clock at the north end of the Palace of Westminster in London. The tower is officially known as Elizabeth Tower, renamed in 2012.",
+      "tags": ["Daily", "PWD Accessible", "9:00 AM – 6:00 PM"],
+      "region": "Manila"
+    },
+    {
+      "id": "4",
+      "name": "Digital National Art Museum (DNA Museum)",
+      "category": "Museums and Galleries",
+      "rating": 5,
+      "image": "images/1-4.jpg",
+      "description": "The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra. A UNESCO World Heritage Site and symbol of eternal love.",
+      "tags": ["Daily", "PWD Accessible", "Sunrise-Sunset"],
+      "region": "Manila"
+    },
+    {
+      "id": "5",
+      "name": "Fort Santiago",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-1.jpg",
+      "description": "The world's largest art museum and a historic monument in Paris, France. Home to thousands of works of art, including the Mona Lisa and the Venus de Milo.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "9am-6pm", "Closed Tuesdays"],
+      "region": "Manila"
+    },
+    {
+      "id": "6",
+      "name": "Intramuros",
+      "category": "Historical Sites",
+      "rating": 4,
+      "image": "images/2-2.jpg",
+      "description": "A contemporary art museum featuring works from modern artists around the world. Interactive exhibits and rotating collections make each visit unique.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "10am-8pm"],
+      "region": "Manila"
+    },
+    {
+      "id": "7",
+      "name": "Rizal Park",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-3.jpg",
+      "description": "Experience authentic local cuisine at this bustling street food market. Featuring dozens of vendors offering traditional dishes and modern fusion creations.",
+      "tags": ["Weekdays", "Weekend", "Limited PWD Access", "11am-10pm"],
+      "region": "Manila"
+    },
+    {
+      "id": "8",
+      "name": "Baluarte de San Diego",
+      "category": "Historical Sites",
+      "rating": 4,
+      "image": "images/2-4.jpg",
+      "description": "An upscale food hall featuring artisanal food stalls, craft beverages, and specialty ingredients from around the world.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "10am-9pm"],
+      "region": "Manila"
+    },
+    {
+      "id": "9",
+      "name": "Corregidor Island",
+      "category": "Historical Sites",
+      "rating": 5,
+      "image": "images/2-5.jpg",
+      "description": "Relax at this pristine beach resort featuring crystal-clear waters, white sand beaches, and world-class amenities. Perfect for families and couples seeking a tropical paradise.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "24/7"],
+      "region": "Cavite"
+    },
+    {
+      "id": "10",
+      "name": "Baler Public Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-1.jpg",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "4:00 AM to 8:00 PM"],
+      "region": "Aurora"
+    },
+    {
+      "id": "11",
+      "name": "Baguio Night Market",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-2.jpg",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "9:00 PM – 2:00 AM"],
+      "region": "Benguet"
+    },
+    {
+      "id": "12",
+      "name": "Pampanga Food Hubs",
+      "category": "Food and Market",
+      "rating": 5,
+      "image": "images/3-3.jpg",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "10:00 AM - 10:00 PM"],
+      "region": "Pampanga"
+    },
+    {
+      "id": "13",
+      "name": "Enchanted Kingdom",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "images/3-4.jpg",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekend", "PWD Accessible", "1:00 PM – 8:00 PM"],
+      "region": "Sta. Rosa, Laguna"
+    },
+    {
+      "id": "14",
+      "name": "Star City",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Tuesday–Friday", "PWD Accessible", "2:00 PM – 10:00 PM"],
+      "region": "Pasay"
+    },
+    {
+      "id": "15",
+      "name": "Manila Ocean Park",
+      "category": "Leisure & Entertainment",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "PWD Accessible", "10:00 AM – 6:00 PM"],
+      "region": "Manila"
+    },
+    {
+      "id": "16",
+      "name": "Mayon Volcano View Deck ",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "Anytime"],
+      "region": "Albay"
+    },
+    {
+      "id": "17",
+      "name": "Banaue Rice Terraces",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "Anytime"],
+      "region": "Ifugao"
+    },
+    {
+      "id": "18",
+      "name": "Cape Bojeador Lighthouse",
+      "category": "Sightseeing",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Daily", "PWD Accessible", "Anytime"],
+      "region": "Ilocos Norte"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Water-Based",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    },
+    {
+      "id": "10",
+      "name": "Coastal Paradise",
+      "category": "Outdoor and Nature",
+      "rating": 5,
+      "image": "https://images.unsplash.com/photo-1552873547-b88e7b2760e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHJlc29ydCUyMGxlaXN1cmV8ZW58MXx8fHwxNzc5NTY0NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A beautiful coastal destination offering water sports, beachfront dining, and stunning sunset views. Ideal for adventure seekers and relaxation enthusiasts alike.",
+      "tags": ["Weekdays", "Weekend", "PWD Accessible", "6am-10pm"],
+      "region": "Philippines, Palawan"
+    }
+  ],
+  "tripRoutes": [
+    {
+      "id": "r1",
+      "locationId": "1",
+      "name": "Paris City Explorer",
+      "region": "Île-de-France, Paris",
+      "route": "CDG Airport → Metro Line 1 → Champ de Mars → Eiffel Tower",
+      "transportation": "Metro (Line 6 or RER C to Champ de Mars)",
+      "bestWeather": "Spring (April-June) or Fall (September-October)",
+      "bestTime": "Early morning (9-10am) or late evening (7-9pm) for sunset views"
+    },
+    {
+      "id": "r2",
+      "locationId": "2",
+      "name": "Ancient Rome Circuit",
+      "region": "Lazio, Rome",
+      "route": "Termini Station → Metro Line B → Colosseo Station → Roman Forum → Colosseum",
+      "transportation": "Metro Line B (Colosseo Station)",
+      "bestWeather": "Spring (March-May) or Fall (September-November)",
+      "bestTime": "Early morning (8:30-10am) to avoid crowds"
+    },
+    {
+      "id": "r3",
+      "locationId": "3",
+      "name": "London Historic Walk",
+      "region": "Greater London, Westminster",
+      "route": "Westminster Tube → Parliament Square → Big Ben → Westminster Abbey",
+      "transportation": "Underground (Westminster, Jubilee/Circle/District lines)",
+      "bestWeather": "Late Spring to Early Fall (May-September)",
+      "bestTime": "Mid-morning (10am-12pm) for best photos"
+    },
+    {
+      "id": "r4",
+      "locationId": "4",
+      "name": "Agra Heritage Tour",
+      "region": "Uttar Pradesh, Agra",
+      "route": "Delhi → Yamuna Expressway → Agra → Taj Mahal East Gate",
+      "transportation": "Train (Gatimaan Express) or Car (3-4 hour drive)",
+      "bestWeather": "October to March (cooler temperatures)",
+      "bestTime": "Sunrise (6-8am) for magical lighting and fewer tourists"
+    },
+    {
+      "id": "r5",
+      "locationId": "5",
+      "name": "Paris Art & Culture",
+      "region": "Île-de-France, Paris",
+      "route": "Palais Royal-Musée du Louvre Metro → Louvre Pyramid Entrance",
+      "transportation": "Metro Line 1 or 7 (Palais Royal station)",
+      "bestWeather": "Year-round (indoor attraction)",
+      "bestTime": "Wednesday or Friday evenings (extended hours, fewer crowds)"
+    },
+    {
+      "id": "r6",
+      "locationId": "7",
+      "name": "Bangkok Street Food Adventure",
+      "region": "Bangkok, Thailand",
+      "route": "BTS Skytrain → Street Market District → Walking Food Tour",
+      "transportation": "BTS Skytrain or Taxi",
+      "bestWeather": "November to February (cooler, dry season)",
+      "bestTime": "Evening (6-9pm) when markets are most vibrant"
+    },
+    {
+      "id": "r7",
+      "locationId": "9",
+      "name": "Maldives Island Escape",
+      "region": "Maldives, North Malé Atoll",
+      "route": "Velana International Airport → Speedboat Transfer → Resort Island",
+      "transportation": "Speedboat or Seaplane (30-45 minutes)",
+      "bestWeather": "November to April (dry season)",
+      "bestTime": "Anytime - resort offers 24/7 amenities"
+    }
+  ],
+  "categories": [
+    "Museums and Galleries",
+    "Historical Sites",
+    "Food and Market",
+    "Leisure and Entertainment",
+    "Sightseeing",
+    "Water-Based",
+    "Outdoor and Nature"
+  ]
+}
