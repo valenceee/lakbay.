@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lakbay.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="land.html" class="brand">
+      <img src="icons/logo.svg" alt="lakbay logo" style="width: 1.5rem; height: 1.5rem;">
+      <span>lakbay.</span>
+    </a>
+  </header>
+
+  <div id="app">
+    <main>
+      <div class="page-wrapper wide">
+
+        <a href="land.html" class="back-link">
+          <img src="icons/arrow_left.svg" alt="back" style="width: 1.1rem; height: 1.1rem;">
+          Back to Locations
+        </a>
+
+        <div class="detail-card">
+          <img class="detail-img" id="detail-img" src="" alt="" onerror="this.src='https://placehold.co/1200x400/e2e8f0/64748b?text=Image+not+found'">
+          <div class="detail-body">
+            <div class="detail-top">
+              <div>
+                <h1 id="detail-name"></h1>
+                <div class="detail-location">
+                  <img src="icons/pin.svg" alt="pin" style="width: 1.1rem; height: 1.1rem;">
+                  <span id="detail-region"></span>
+                </div>
+              </div>
+              <div id="detail-stars" class="stars"></div>
+            </div>
+
+            <div class="category-badge" id="detail-badge"></div>
+
+            <p class="detail-description" id="detail-description"></p>
+
+            <div class="detail-tags-title"><h2>Details</h2></div>
+            <div class="tags-list" id="detail-tags"></div>
+
+            <div class="detail-actions">
+              <a id="btn-plan" href="" class="btn-primary"> Plan a Trip </a>
+              <a id="btn-review" href="makeReview.html" class="btn-dark"> Write a Review </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="location.js"></script>
+</body>
+</html>

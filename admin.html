@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> lakbay. - Admin Login </title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header>
+    <a href="index.html" class="brand">
+      <img src="icons/logo.svg" alt="lakbay logo" style="width: 1.5rem; height: 1.5rem;">
+      <span> lakbay. </span>
+    </a>
+  </header>
+
+  <!-- page -->
+  <div class="page">
+
+    <div class="panel">
+      <div class="login-card">
+        <h2> Welcome back! </h2>
+        <p class="subtitle"> Log in to your lakbay. <b>admin</b> account </p>
+
+        <form id="loginForm" novalidate>
+
+          <!-- email -->
+          <div class="form-group">
+            <label for="email"> Email address </label>
+            <div class="input-wrapper">
+              <img src="icons/email.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+              <input type="email" id="email" name="email" placeholder="Enter your admin email" autocomplete="email" />
+            </div>
+            <span class="error-msg" id="emailError">Please enter a valid email address.</span>
+          </div>
+
+          <!-- password -->
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-wrapper">
+              <img src="icons/pass.svg" class="input-icon" style="width: 1.3rem; height: 1.3rem;">
+              <input type="password" id="password" name="password" placeholder="Enter your admin password" autocomplete="current-password" />
+              <button type="button" class="toggle-pw" id="togglePw" aria-label="Toggle password visibility">
+                <img src="icons/hidepass.svg" id="iconEyeVisible" style="width: 1.4rem; height: 1.4rem;">
+                <img src="icons/viewpass.svg" id="iconEyeHidden" style="width: 1.4rem; height: 1.4rem;">
+              </button>
+            </div>
+            <span class="error-msg" id="passwordError">Password must be at least 6 characters.</span>
+          </div>
+
+          <!-- remember me + forgot -->
+          <div class="form-meta">
+            <label class="remember">
+              <input type="checkbox" name="remember" />
+              Remember me
+            </label>
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="btn-login">Log In</button>
+
+          <div class="divider">or</div>
+
+          <p class="signup-row"> Sign in as <a href="login.html"> User </a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="adminlogin.js"></script>
+</body>
+</html>

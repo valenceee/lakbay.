@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan a Trip — lakbay.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <a href="land.html" class="brand">
+      <img src="icons/logo.svg" alt="lakbay logo" style="width: 1.5rem; height: 1.5rem;">
+      <span>lakbay.</span>
+    </a>
+  </header>
+
+  <div id="app">
+    <main>
+      <div class="page-wrapper wide">
+
+        <a href="land.html" class="back-link" id="back-link">
+          <img src="icons/arrow_left.svg" alt="back" style="width: 1.1rem; height: 1.1rem;">
+          Back to Locations
+        </a>
+
+        <div class="plan-header">
+          <h1 id="plan-title">Plan Your Trip</h1>
+          <p id="plan-subtitle">Recommended routes and travel information</p>
+        </div>
+
+        <div class="routes-list" id="routes-list"></div>
+
+        <div class="no-routes hidden" id="no-routes">
+          <p>No trip routes available for this location yet.</p>
+        </div>
+
+        <div class="plan-footer">
+          <a id="btn-back" href="land.html" class="btn-dark" style="display:inline-block;">Back to Location Details</a>
+        </div>
+
+      </div>
+    </main>
+  </div>
+
+  <script src="plan.js"></script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Write a Review - lakbay.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="app">
+
+    <header>
+      <a href="land.html" class="brand">
+        <img src="icons/logo.svg" alt="lakbay logo" style="width: 1.5rem; height: 1.5rem;">
+        <span>lakbay.</span>
+      </a>
+  </header>
+
+    <main>
+      <div class="page-wrapper">
+
+        <a href="land.html" class="back-link">
+          <img src="icons/arrow_left.svg" alt="back" style="width: 1.1rem; height: 1.1rem;">
+          Back to Locations
+        </a>
+
+        <div class="review-card">
+          <h1>Write a Review</h1>
+          <p id="review-subtitle">Share your experience</p>
+
+          <form id="review-form" novalidate>
+
+            <!-- Overall Rating -->
+            <div class="form-section">
+              <div class="form-section-title">Overall Rating</div>
+              <div class="form-group">
+                <label>Rate your experience</label>
+                <div class="star-rating" id="star-rating">
+                  <button type="button" class="star-btn" data-star="1" aria-label="1 star">
+                    <img src="icons/star_unfilled.svg" class="empty" alt="pin" style="width: 3rem; height: 3rem;">
+                  </button>
+                  <button type="button" class="star-btn" data-star="2" aria-label="2 stars">
+                    <img src="icons/star_unfilled.svg" class="empty" alt="pin" style="width: 3rem; height: 3rem;">
+                  </button>
+                  <button type="button" class="star-btn" data-star="3" aria-label="3 stars">
+                    <img src="icons/star_unfilled.svg" class="empty" alt="pin" style="width: 3rem; height: 3rem;">
+                  </button>
+                  <button type="button" class="star-btn" data-star="4" aria-label="4 stars">
+                    <img src="icons/star_unfilled.svg" class="empty" alt="pin" style="width: 3rem; height: 3rem;">
+                  </button>
+                  <button type="button" class="star-btn" data-star="5" aria-label="5 stars">
+                    <img src="icons/star_unfilled.svg" class="empty" alt="pin" style="width: 3rem; height: 3rem;">
+                  </button>
+                </div>
+                <span class="error-msg" id="starError" style="display:none;color:#ef4444;font-size:0.85rem;">Please select a star rating.</span>
+              </div>
+            </div>
+
+            <!-- Reviewer Information -->
+            <div class="form-section">
+              <div class="form-section-title">Reviewer Information</div>
+              <div class="form-group">
+                <label for="reviewer-name">Name (Optional)</label>
+                <input type="text" id="reviewer-name" name="name" placeholder="Your name" minlength="3" maxlength="100">
+              </div>
+              <div class="form-group">
+                <label for="visit-date">Date of Visit</label>
+                <input type="date" id="visit-date" name="visit_date" required>
+              </div>
+            </div>
+
+            <!-- Facilities & Amenities -->
+            <div class="form-section">
+              <div class="form-section-title">Facilities &amp; Amenities</div>
+              <div class="form-group">
+                <label>Restroom (CR) Availability</label>
+                <select name="crAvailability" required data-review-field="crAvailability">
+                  <option value="">Select...</option>
+                  <option value="easily-accessible">Easily Accessible</option>
+                  <option value="available-but-limited">Available but Limited</option>
+                  <option value="difficult-to-find">Difficult to Find</option>
+                  <option value="not-available">Not Available</option>
+                  <option value="not-applicable">Not Applicable</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Restroom Cleanliness</label>
+                <select name="crCleanliness" required data-review-field="crCleanliness">
+                  <option value="">Select...</option>
+                  <option value="very-clean">Very Clean</option>
+                  <option value="clean">Clean</option>
+                  <option value="acceptable">Acceptable</option>
+                  <option value="needs-improvement">Needs Improvement</option>
+                  <option value="poor">Poor</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Signage & Information -->
+            <div class="form-section">
+              <div class="form-section-title">Signage &amp; Information</div>
+              <div class="form-group">
+                <label>Were signs visible and easy to follow?</label>
+                <select name="signageVisibility" required data-review-field="signageVisibility">
+                  <option value="">Select...</option>
+                  <option value="excellent">Excellent - Very clear and visible</option>
+                  <option value="good">Good - Mostly clear</option>
+                  <option value="fair">Fair - Some signs were unclear</option>
+                  <option value="poor">Poor - Difficult to navigate</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Was information clear and helpful?</label>
+                <select name="informationClarity" required data-review-field="informationClarity">
+                  <option value="">Select...</option>
+                  <option value="very-helpful">Very Helpful</option>
+                  <option value="helpful">Helpful</option>
+                  <option value="somewhat-helpful">Somewhat Helpful</option>
+                  <option value="not-helpful">Not Helpful</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Staff & Service -->
+            <div class="form-section">
+              <div class="form-section-title">Staff &amp; Service</div>
+              <div class="form-group">
+                <label>Staff Friendliness</label>
+                <select name="staffFriendliness" required data-review-field="staffFriendliness">
+                  <option value="">Select...</option>
+                  <option value="very-friendly">Very Friendly</option>
+                  <option value="friendly">Friendly</option>
+                  <option value="neutral">Neutral</option>
+                  <option value="unfriendly">Unfriendly</option>
+                  <option value="no-interaction">No Interaction</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Staff Knowledge</label>
+                <select name="staffKnowledge" required data-review-field="staffKnowledge">
+                  <option value="">Select...</option>
+                  <option value="very-knowledgeable">Very Knowledgeable</option>
+                  <option value="knowledgeable">Knowledgeable</option>
+                  <option value="somewhat-knowledgeable">Somewhat Knowledgeable</option>
+                  <option value="not-knowledgeable">Not Knowledgeable</option>
+                  <option value="no-interaction">No Interaction</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Accessibility & Convenience -->
+            <div class="form-section">
+              <div class="form-section-title">Accessibility &amp; Convenience</div>
+              <div class="form-group">
+                <label>Accessibility for PWD (Persons with Disabilities)</label>
+                <select name="accessibilityRating" required data-review-field="accessibilityRating">
+                  <option value="">Select...</option>
+                  <option value="fully-accessible">Fully Accessible</option>
+                  <option value="mostly-accessible">Mostly Accessible</option>
+                  <option value="partially-accessible">Partially Accessible</option>
+                  <option value="not-accessible">Not Accessible</option>
+                  <option value="not-applicable">Not Applicable</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Parking Availability</label>
+                <select name="parkingAvailability" required data-review-field="parkingAvailability">
+                  <option value="">Select...</option>
+                  <option value="ample-parking">Ample Parking</option>
+                  <option value="adequate-parking">Adequate Parking</option>
+                  <option value="limited-parking">Limited Parking</option>
+                  <option value="no-parking">No Parking</option>
+                  <option value="not-applicable">Not Applicable</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Overall Experience -->
+            <div class="form-section">
+              <div class="form-section-title">Overall Experience</div>
+              <div class="form-group">
+                <label>Safety Rating</label>
+                <select name="safetyRating" required data-review-field="safetyRating">
+                  <option value="">Select...</option>
+                  <option value="very-safe">Very Safe</option>
+                  <option value="safe">Safe</option>
+                  <option value="somewhat-safe">Somewhat Safe</option>
+                  <option value="unsafe">Unsafe</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Cleanliness Rating</label>
+                <select name="cleanlinessRating" required data-review-field="cleanlinessRating">
+                  <option value="">Select...</option>
+                  <option value="very-clean">Very Clean</option>
+                  <option value="clean">Clean</option>
+                  <option value="acceptable">Acceptable</option>
+                  <option value="needs-improvement">Needs Improvement</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Quality of Facilities</label>
+                <select name="facilitiesRating" required data-review-field="facilitiesRating">
+                  <option value="">Select...</option>
+                  <option value="excellent">Excellent</option>
+                  <option value="good">Good</option>
+                  <option value="fair">Fair</option>
+                  <option value="poor">Poor</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Value for Money</label>
+                <select name="valueForMoney" required data-review-field="valueForMoney">
+                  <option value="">Select...</option>
+                  <option value="excellent-value">Excellent Value</option>
+                  <option value="good-value">Good Value</option>
+                  <option value="fair-value">Fair Value</option>
+                  <option value="poor-value">Poor Value</option>
+                  <option value="free-entry">Free Entry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Did it meet your expectations?</label>
+                <select name="metExpectations" required data-review-field="metExpectations">
+                  <option value="">Select...</option>
+                  <option value="exceeded">Exceeded Expectations</option>
+                  <option value="met">Met Expectations</option>
+                  <option value="somewhat-met">Somewhat Met Expectations</option>
+                  <option value="did-not-meet">Did Not Meet Expectations</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Visit Details -->
+            <div class="form-section">
+              <div class="form-section-title">Visit Details</div>
+              <div class="form-group">
+                <label>Crowd Level</label>
+                <select name="crowdLevel" required data-review-field="crowdLevel">
+                  <option value="">Select...</option>
+                  <option value="very-crowded">Very Crowded</option>
+                  <option value="crowded">Crowded</option>
+                  <option value="moderate">Moderate</option>
+                  <option value="light">Light Crowd</option>
+                  <option value="empty">Nearly Empty</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Waiting Time</label>
+                <select name="waitTime" required data-review-field="waitTime">
+                  <option value="">Select...</option>
+                  <option value="no-wait">No Wait</option>
+                  <option value="under-15min">Under 15 minutes</option>
+                  <option value="15-30min">15–30 minutes</option>
+                  <option value="30-60min">30–60 minutes</option>
+                  <option value="over-60min">Over 60 minutes</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Photo Opportunities</label>
+                <select name="photoOpportunities" required data-review-field="photoOpportunities">
+                  <option value="">Select...</option>
+                  <option value="excellent">Excellent</option>
+                  <option value="good">Good</option>
+                  <option value="fair">Fair</option>
+                  <option value="limited">Limited</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Food & Additional Amenities -->
+            <div class="form-section">
+              <div class="form-section-title">Food &amp; Additional Amenities</div>
+              <div class="form-group">
+                <label>Food Quality (if applicable)</label>
+                <select name="foodQuality" data-review-field="foodQuality">
+                  <option value="">Select...</option>
+                  <option value="excellent">Excellent</option>
+                  <option value="good">Good</option>
+                  <option value="fair">Fair</option>
+                  <option value="poor">Poor</option>
+                  <option value="not-applicable">Not Applicable</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Quality of Other Amenities</label>
+                <select name="amenitiesQuality" required data-review-field="amenitiesQuality">
+                  <option value="">Select...</option>
+                  <option value="excellent">Excellent</option>
+                  <option value="good">Good</option>
+                  <option value="fair">Fair</option>
+                  <option value="poor">Poor</option>
+                  <option value="not-applicable">Not Applicable</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Final Thoughts -->
+            <div class="form-section">
+              <div class="form-section-title">Final Thoughts</div>
+              <div class="form-group">
+                <label>Would you recommend this to others?</label>
+                <select name="wouldRecommend" required data-review-field="wouldRecommend">
+                  <option value="">Select...</option>
+                  <option value="definitely">Definitely</option>
+                  <option value="probably">Probably</option>
+                  <option value="maybe">Maybe</option>
+                  <option value="probably-not">Probably Not</option>
+                  <option value="definitely-not">Definitely Not</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Would you return?</label>
+                <select name="wouldReturn" required data-review-field="wouldReturn">
+                  <option value="">Select...</option>
+                  <option value="yes-definitely">Yes, Definitely</option>
+                  <option value="yes-maybe">Yes, Maybe</option>
+                  <option value="unsure">Unsure</option>
+                  <option value="probably-not">Probably Not</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Additional Comments -->
+            <div class="form-group">
+              <label for="additional-comments">Additional Comments</label>
+              <textarea
+                id="additional-comments"
+                name="additionalComments"
+                rows="6"
+                minlength="20"
+                maxlength="1000"
+                placeholder="Tell us more about your experience..."
+                data-review-field="additionalComments"
+              ></textarea>
+              <span class="error-msg" id="commentsError" style="display:none;color:#ef4444;font-size:0.85rem;">Please enter at least 20 characters.</span>
+            </div>
+
+            <!-- Confirmation -->
+            <div class="form-group">
+              <label>
+                <input type="checkbox" id="confirm-review" name="confirm_review" required>
+                I confirm that this review is based on my actual experience.
+              </label>
+              <span class="error-msg" id="confirmError" style="display:none;color:#ef4444;font-size:0.85rem;">You must confirm before submitting.</span>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn-submit">Submit Review</button>
+              <a id="btn-cancel" href="land.html" class="btn-cancel">Cancel</a>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </main>
+
+  </div>
+
+  <script src="makeReview.js"></script>
+</body>
+</html>

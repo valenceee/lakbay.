@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - lakbay.</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <header>
+    <a href="land.html" class="brand">
+      <img src="icons/logo.svg" alt="lakbay" style="width:1.4rem;height:1.4rem;">
+      <span>lakbay.</span>
+    </a>
+    <span class="header-badge">Admin Dashboard</span>
+  </header>
+
+  <div class="dashboard">
+
+    <!-- stat -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div>
+          <div class="stat-label">Total Locations</div>
+          <div class="stat-value" id="stat-locations"> - </div>
+        </div>
+        <img src="icons/pin.svg" alt="back" style="width: 2.2rem; height: 2.2rem;">
+      </div>
+      <div class="stat-card">
+        <div>
+          <div class="stat-label">Survey Responses</div>
+          <div class="stat-value" id="stat-responses"> - </div>
+        </div>
+        <img src="icons/pin.svg" alt="back" style="width: 2.2rem; height: 2.2rem;">
+      </div>
+      <div class="stat-card">
+        <div>
+          <div class="stat-label">Categories</div>
+          <div class="stat-value" id="stat-categories"> - </div>
+        </div>
+        <img src="icons/categories.svg" alt="back" style="width: 2.2rem; height: 2.2rem;">
+      </div>
+      <div class="stat-card">
+        <div>
+          <div class="stat-label">Survey Avg. Rating</div>
+          <div class="stat-value" id="stat-avg-rating"> -
+            <img src="icons/star_filled.svg" alt="back" style="width: 1.5rem; height: 1.5rem;">
+          </div>
+        </div>
+        <img src="icons/graph.svg" alt="back" style="width: 2.2rem; height: 2.2rem;">
+      </div>
+    </div>
+
+    <!-- chrrts -->
+    <div class="charts-row">
+      <div class="chart-card">
+        <div class="section-title">Locations by Category</div>
+        <div class="pie-wrap">
+          <canvas class="pie-canvas" id="pie-chart" width="180" height="180"></canvas>
+          <div class="pie-legend" id="pie-legend"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="section-title">Rating Distribution</div>
+        <div class="bar-chart" id="bar-chart"></div>
+      </div>
+    </div>
+
+    <!-- locations table -->
+    <div class="table-card">
+      <div class="table-card-header">
+        <img src="icons/pin.svg" alt="back" style="width: 1.3rem; height: 1.3rem;">
+        <span class="section-title" style="margin:0;">All Locations</span>
+      </div>
+
+      <div class="filter-bar" style="padding: 1rem 1.5rem 0;">
+        <span class="filter-label">Filter:</span>
+        <input type="text" id="loc-search" placeholder="Search by name…" style="width:160px;">
+        <select id="loc-category">
+          <option value="">All Categories</option>
+        </select>
+        <select id="loc-region">
+          <option value="">All Regions</option>
+        </select>
+        <select id="loc-rating">
+          <option value="">All Ratings</option>
+          <option value="5">5 Stars</option>
+          <option value="4">4 Stars</option>
+          <option value="3">3 Stars</option>
+          <option value="2">2 Stars</option>
+          <option value="1">1 Star</option>
+        </select>
+        <select id="loc-sort">
+          <option value="name-asc">Name A-Z</option>
+          <option value="name-desc">Name Z-A</option>
+          <option value="rating-desc">Rating High-Low</option>
+          <option value="rating-asc">Rating Low-High</option>
+        </select>
+        <button class="btn-reset" id="loc-reset">Reset</button>
+      </div>
+      <div class="count-indicator" id="loc-count" style="padding-top:0.5rem;"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Region</th>
+            <th>Rating</th>
+            <th>Tags</th>
+          </tr>
+        </thead>
+        <tbody id="loc-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- survey responses table -->
+    <div class="table-card">
+      <div class="table-card-header">
+        <img src="icons/comment.svg" alt="back" style="width: 1.3rem; height: 1.3rem;">
+        <span class="section-title" style="margin:0;">Survey Responses</span>
+      </div>
+
+      <div class="filter-bar" style="padding: 1rem 1.5rem 0;">
+        <span class="filter-label">Filter:</span>
+        <select id="srv-location">
+          <option value="">All Locations</option>
+        </select>
+        <select id="srv-rating">
+          <option value="">All Ratings</option>
+          <option value="5">5 Stars</option>
+          <option value="4">4 Stars</option>
+          <option value="3">3 Stars</option>
+          <option value="2">2 Stars</option>
+          <option value="1">1 Star</option>
+        </select>
+        <select id="srv-recommend">
+          <option value="">All Recommendations</option>
+          <option value="definitely">Definitely</option>
+          <option value="probably">Probably</option>
+          <option value="maybe">Maybe</option>
+          <option value="probably-not">Probably Not</option>
+          <option value="definitely-not">Definitely Not</option>
+        </select>
+        <select id="srv-sort">
+          <option value="date-desc">Date Newest - Oldest</option>
+          <option value="date-asc">Date Oldest - Newest</option>
+          <option value="rating-desc">Rating High - Low</option>
+          <option value="rating-asc">Rating Low - High</option>
+        </select>
+        <button class="btn-reset" id="srv-reset">Reset</button>
+      </div>
+      <div class="count-indicator" id="srv-count" style="padding-top:0.5rem;"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Rating</th>
+            <th>Safety</th>
+            <th>Cleanliness</th>
+            <th>Accessibility</th>
+            <th>Would Recommend</th>
+            <th>Comments</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="srv-tbody"></tbody>
+      </table>
+    </div>
+
+    <a href="login.html"><button  type="submit" class="btn-logout"> Log Out </button></a>
+  </div>
+
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
